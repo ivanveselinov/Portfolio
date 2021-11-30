@@ -2,10 +2,10 @@ import React from 'react'
 
 function AboutMe() {
     return (
-    <div className="w-3/4 m-auto flex mt-40  mb-40"> 
+    <div id="about" className="w-3/4 m-auto flex mt-40  mb-40 "> 
       < div className=" flex ">
-        <div  className="lg:w-full h-22 rounded-xl border bg-about bg-cover bg-center xs:hidden">     </div>
-          <div className="lg:text-lg p-10 w-1/2  h-22 overflow-scroll scrollbar-hide border max-w-278 bg-blue-50 bg-blue-200 p-2 shadow-lg rounded-md  m-auto focus:outline-none xs: w-full text-sm ">
+        <div  className="lg:w-full h-22 rounded-xl border bg-about bg-cover bg-center xs:hidden">     </div>  {/* IMAGE! */}
+          <div className="lg:text-lg p-10 w-1/2  h-22 overflow-scroll scrollbar-hide border max-w-278  bg-blue-200 p-2 shadow-lg rounded-md  m-auto focus:outline-none xs: w-full text-sm ">
             <h1 className="text-center text-2xl ">Ivan Veselinov</h1>
              <p className="lg:text-xxl sm: text-sm">     {/* Put this one in more paragraphs */}
           
@@ -29,5 +29,3 @@ function AboutMe() {
 
 export default AboutMe
 
-
-{/* <img className="lg:w-full h-278 bg-about bg-cover flex rounded-xl m-auto mr-2 shadow-xl xs:hidden border-2 "/>      */}

@@ -3,22 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Home from "./components/home/Home";
-import Main from "./components/aboutMe/Container";
-import Project from "./components/projects/Project";
-import ContactMe from "./components/contact/ContactMe";
-import Experience from "./components/experience/Experience";
-{/* <BrowserRouter>
-<Routes>
-  <Route path='/' element={ <Home /> } exact />
-  <Route path='/airplanes' element={ < Main/>} />
-  <Route path='/flights' element={ <Project /> } />
-  <Route path='/search' element={ <Experience /> } />
-  <Route path='/search' element={ <ContactMe /> } />
-</Routes>
-</BrowserRouter> */}
 ReactDOM.render(
   <React.StrictMode>
     <App />

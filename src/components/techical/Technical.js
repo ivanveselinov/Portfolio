@@ -1,14 +1,14 @@
 import React from 'react'
-import ContainerExp from './ContainerExp'
+import ContainerTech from './ContainerTech'
 
 
 
-function Experience() {
+function Technical() {
     return (
         <div className="w-full h-screen bg-gray-100 border-2 bg-grey-50">
-        <ContainerExp />
+        <ContainerTech />
         </div>
     )
 }
 
-export default Experience
+export default Technical
