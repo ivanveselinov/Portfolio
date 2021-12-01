@@ -4,11 +4,11 @@ function AboutMe() {
     return (
     <div id="about" className="w-3/4 m-auto flex mt-40  mb-40 "> 
       < div className=" flex ">
-        <div  className="lg:w-full h-22 rounded-xl border bg-about bg-cover bg-center xs:hidden">     </div>  {/* IMAGE! */}
-          <div className="lg:text-lg p-10 w-1/2  h-22 overflow-scroll scrollbar-hide border max-w-278  bg-blue-200 p-2 shadow-lg rounded-md  m-auto focus:outline-none xs: w-full text-sm ">
+        <div  className="lg:w-full h-22 bg-about bg-cover bg-center xs:hidden">     </div>  {/* IMAGE! */}
+          <div className="lg:text-lg p-10 w-1/2  h-22 overflow-scroll scrollbar-hide max-w-278  bg-blue-200 p-2 shadow-lg m-auto focus:outline-none xs: w-full text-sm ">
             <h1 className="text-center text-2xl ">Ivan Veselinov</h1>
              <p className="lg:text-xxl sm: text-sm">     {/* Put this one in more paragraphs */}
-          
+              
              Fun Fact: Since I was about 10 years old, my focus has been on anything to do with computers! I taught myself how to fix and program computers.
             <p> I spent ten long years working as a store owner who owned a fruit and vegetable business in the bazaar in Macedonia, whilst I worked hard at completing my university studies. My side business was working as an IT technician.
 </p>

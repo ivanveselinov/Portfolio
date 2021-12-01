@@ -27,7 +27,7 @@
           'mongodb': "url('components/img/mongodb.png')",
           'tailwind': "url('components/img/tailwind.png')",
           'tfb': "url('components/img/tfb.png')",
-          'fict': "url('components/img/fict.png')",
+          'fict': "url('components/img/fikt1.png')",
           'Inus': "url('components/img/Inus.png')",
           'GA': "url('components/img/GA.png')",
           'AIIT': "url('components/img/AIIT.png')",
@@ -39,6 +39,6 @@
        extend: {},
      },
      plugins: [require("tailwind-scrollbar-hide")],
-    
-   
+
+
    }

@@ -4,7 +4,7 @@ import Main from "./aboutMe/Container";
 import Project from "./projects/Project";
 import ContactMe from "./contact/ContactMe";
 import Technical from "./techical/Technical";
-import Education from "../education/Education";
+import Education from "../components/education/Education"
 
 
 

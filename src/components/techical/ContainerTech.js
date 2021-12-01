@@ -17,7 +17,7 @@ function ContainerTech() {
                 <p className={`${Skills} lg:text-2xl `}>REACT.JS, Vue.js, Ruby on Rails, Node.js, JavaScript, Jquerry, Underscore. </p>
                 <p className={Skills}>HTML, CSS, Bootstrap, Tailwind. </p>
                 <p className={Skills}>Mongodb, Firebase, Postgresql, SQLite, API integration & Axios requests.</p>
-                <p className={Skills}>Deployments: GitHub, Heroky, Firebase, Vercel</p>
+                <p className={`${Skills} border-b`}>Deployments: GitHub, Heroky, Firebase, Vercel</p>
                 </div>
 
                 <div className={IconsContainer}>  {/* Icons experience bar */}

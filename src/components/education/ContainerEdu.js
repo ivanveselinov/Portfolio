@@ -7,8 +7,8 @@ import FindInPageIcon from '@mui/icons-material/FindInPage';
 function ContainerEdu() {
 
   const FirstContainer="lg:flex md: block h-22 border-b" 
-  const Container=" h-22 bg-red-300 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 m-auto sm:w-full"
-  const Main="w-full text-center text-2xl m-auto"
+  const Container=" h-22 shadow-md bg-red-300 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 m-auto sm:w-full"
+  const Main="w-full text-center text-2xl m-auto "
   const ContainerTwo="p-1 flex justijustify-between"
   const Logo="lg: w-16 h-16"
   const Title="lg:text-xl m-auto mt-5 border-b text-center sm: text-xs"
