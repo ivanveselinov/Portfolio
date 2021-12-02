@@ -113,7 +113,7 @@ function ContainerEdu() {
 
                 <div className={Container}> {/* Container */}
                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
-                   <p className={`${Logo} bg-AIIT`}> {/* LOGO */}
+                   <p className={`${Logo} bg-AIIT mb-2`}> {/* LOGO */}
                    </p> 
                    <p className={Title}>Architecture for Multimedia Learning System 
                    <p>With Social Networking Features</p>
@@ -123,7 +123,7 @@ function ContainerEdu() {
                    <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }}/>International Conference on Applied Internet and Information Technologies, 2018 · Oct 5, 2018</p>
                             <br></br>
                    <div className="flex justify-between mt-4 ">
-                   <p className="text-center text-xl ">Page: 153  </p>
+                   <p className="text-center text-xl ">Page: 135  </p>
                    <a href="https://aiitconference.org/2018/files/Proceedings_AIIT2018.pdf" className="text-center text-xl ">More..</a>
                    </div>
                   

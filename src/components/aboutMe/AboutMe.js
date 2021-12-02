@@ -9,16 +9,11 @@ function AboutMe() {
             <h1 className="text-center text-2xl ">Ivan Veselinov</h1>
              <p className="lg:text-xxl sm: text-sm">     {/* Put this one in more paragraphs */}
               
-             Fun Fact: Since I was about 10 years old, my focus has been on anything to do with computers! I taught myself how to fix and program computers.
-            <p> I spent ten long years working as a store owner who owned a fruit and vegetable business in the bazaar in Macedonia, whilst I worked hard at completing my university studies. My side business was working as an IT technician.
+             I am a Web Developer based in Sydney and recently graduated from General Assembly where I learned about both front and back end development. I had wanted to change my carrer for a long time and after a long rough self-learning path and life journery, I finally decided to commit myself in 12 weeks intensive co
+             urse at GA. I found my passion for coding and I love the moment that I am so focused that I even forget to eat! while coding. I am currenly available for 
+             'full time employment where its open culture and the team motivates each other to learn new things. Please do not hesitate to reach out to me.
+
 </p>
- I spent ten long years working as a store owner who owned a fruit and vegetable business in the bazaar in Macedonia, whilst I worked hard at completing my university studies. My side business was working as an IT technician.
-  
- After coming to Australia and working in the Construction Cleaning industry and completing a Masters in Information Technology, I decided that it was time to follow my dreams and find a suitable dream job in Information Technology. I really didn’t want my studies to be given up when I could have a prosperous job doing what I really enjoy and what I am really passionate and dreaming about. This is why I decided to put time into following my passion and began a course at General Assembly focusing in Full-Stack development.
-  
- I am passionate about working with HTML5, CSS, JavaScript, jQuery and Ruby, plus I am an honest, loyal and confident hard worker. I enjoy working as part of a team and thrive from collaborating with others. I am also always happy to learn new things and constantly educate myself on new and advanced technology.
-  
- Specifically, I am searching for a role where I can utilise my Full-Stack developer (front end and back end) skills and also my Web developing and IT Technician skills, and I am currently available for new projects (whether local or international).            </p>
           </div>
     </div>
     </div>
