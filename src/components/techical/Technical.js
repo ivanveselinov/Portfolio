@@ -5,7 +5,7 @@ import ContainerTech from './ContainerTech'
 
 function Technical() {
     return (
-        <div className="w-full h-screen bg-gray-100 border-2 bg-grey-50">
+        <div className="w-full h-screen bg-gray-100 border bg-grey-50">
         <ContainerTech />
         </div>
     )

@@ -9,8 +9,8 @@ function ContainerTech() {
 
     return (
 
-        <div id="tech">
-            <div className="w-full h-screen h-screen">  
+        <div id="tech ">
+            <div className="w-full h-screen">  
                 <div className="w-3/4 h-screen m-auto mt-10 p-2 ">
                 <div className="text-center text-2xl mt-5 mb-5 "><CloudDoneIcon sx ={{ fontSize: 40 }}/>&nbsp;Technical Skills</div>
                 <div className="w-3/4 h-80 m-auto mb-5 border-t">

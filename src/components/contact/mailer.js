@@ -80,7 +80,7 @@ function Mailer() {
                           name="message"
                           minRows={3}
                           aria-label="empty textarea"
-                          placeholder="Hi there"
+                          placeholder="Hi there!"
                           defaultValue=""
                          required
                           />

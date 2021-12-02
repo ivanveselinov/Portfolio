@@ -17,12 +17,24 @@ function Main() {
         </a>
           <div className={Text}> {/* TEXT DIV*/}
             <h1 className={TextHeader}>Tic Tac Toe</h1> {/* H1 */}
-             <p>
-                This project is made for learning purposes. This game is created for two players who want to try some old school games from our childhood.           
+              <p>
+                This project is made for learning purposes. This game is created for two players where winning is
+                impossible unless a major mistake is made by your opponent.
+              </p>
+              
+              <p>
+               But if your opponent starts on an edge that is not a corner, you can win
              </p>
-            
+
+             <p>
+               There is an exact science on how to win tic tac toe if this is case: Put your first letter in the center.
+             </p>
+             <p>
+               This is an old school game, inspired from our childhood
+             </p>
+               {/* who want to try some old school games from our childhood.            */}
                {/* List items */}
-              <p>To make this project successful we used the following Technologies :</p>
+              <p className="mb-4">To make this project successful we used the following Technologies :</p>
               <p className={List}>HTML</p>
               <p className={List}>CSS</p>
               <p className={List}>JavaScript</p>
@@ -45,7 +57,7 @@ function Main() {
           <p>This Web Application has been created to help people find their next home easily by helping them to navigate and search for properties and Real estate agents by entering minimal data and information such as postcodes.</p>
           </p>
                                 {/* List items */}
-          <p className={` ${ List } mt-1`} >Virtual Support Chat - This feature includes chat during office house (9am till 6pm) between Guest , Users to Real Estate Agents or Admins. After trade in hours there is an included AutoRobot option that will help and assist you until we come back during office hours next day.</p>
+          <p className={` ${ List } mt-1 `} >Virtual Support Chat - This feature includes chat during office house (9am till 6pm) between Guest , Users to Real Estate Agents or Admins. After trade in hours there is an included AutoRobot option that will help and assist you until we come back during office hours next day.</p>
           <p className={ List } >Guest - They can browse the page, without login and signup, they won't be able to change content but they can chat to Real Estate Agents. They have no authority and access to do anything on this Web Application except to browse the Real Estate properties and look at the different Real Estate Agents.</p>
           <p className={ List } >Users - In this category comes a landlord who can easily Sign up and Log in by making an account so they can post, view and update their property. They also can talk via virtual support Chat to Real Estate Agents or Admins.</p>
           <p className={ List } >Premium Users - In this category comes the Real Estate Agents, who are allowed to Add a Property, Remove a Property and have a look into general Users properties and they can appear and act on the virtual support chat like Agents so they can help and support general Users or Premium User. Premium User Login details email: premium@ga.com, password: chicken</p>
@@ -79,7 +91,7 @@ function Main() {
               Uniquee has been created to help people sell their uniquee and rare products with other users online by quick sign up through Facebook, Google or GitHub. </p>
 
                            {/* List items */}
-             <p>To make this project successful we used the following Technologies :</p>
+             <p >To make this project successful we used the following Technologies :</p>
              <p  className={` ${ List } mt-1`} >React</p>
              <p  className={ List } >Tailwind</p>
              <p  className={ List } >Google Firebase Database</p>
@@ -91,17 +103,7 @@ function Main() {
              </div>
             </div>
             
-      <div className=" flex">
-      <a href="https://github.com/ivanveselinov/Uniquee">  { /* LINK IMAGE TO GITHUB */ }
-        <div className={Image}></div>  {/* image */}     
-          </a>
-          <div className={Text}> {/* TEXT DIV*/}
-            <h1 className={TextHeader}>Tic Tac Toe</h1>
-              <p className="">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-              </p>
-            </div>
-      </div>
+      
       
     </div>
   </div>

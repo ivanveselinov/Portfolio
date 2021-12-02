@@ -2,7 +2,6 @@ import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
-// import cv from '../../cv/Ivan%20Veselinov%20Resume.pdf';
 
 
 function ContactMain() {
@@ -20,7 +19,7 @@ function ContactMain() {
       <a href="https://github.com/ivanveselinov" className="lg:w-1/4 bg-blue-100 text-2xl text-center p-5">
        GitHub <GitHubIcon sx ={{ fontSize: 40 }}  />
       </a>
-      <a href={process.env.PUBLIC_URL + '/cv/Ivan%20Veselinov%20Resume.pdf'} download="Ivan%20Veselinov%20Resume.pdf" className="lg:w-1/4 border bg-blue-100 text-2xl text-center p-5 ">
+      <a href={process.env.PUBLIC_URL + '/cv/Ivan%20Veselinov%20Resume.pdf'} download="Ivan Veselinov Resume.pdf" className="lg:w-1/4 border bg-blue-100 text-2xl text-center p-5 ">
           CV <HistoryEduIcon sx ={{ fontSize: 40 }}/> 
       </a>
   
