@@ -2,7 +2,7 @@ import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
-
+// import cv from '../../cv/Ivan%20Veselinov%20Resume.pdf';
 
 
 function ContactMain() {
@@ -17,13 +17,13 @@ function ContactMain() {
       <a href="https://www.linkedin.com/in/ivanveselinov" className="lg:w-1/4 border bg-blue-100  text-2xl items-center  text-center p-5">
         LinkedIn <LinkedInIcon sx ={{ fontSize: 40 }}/>
       </a>
-      <a href="https://www.github.com/ivanveselinov" className="lg:w-1/4 border bg-blue-100 text-2xl text-center p-5">
+      <a href="{ cv }" download="Ivan%20Veselinov%20Resume.pdf" className="lg:w-1/4 border bg-blue-100 text-2xl text-center p-5">
        GitHub <GitHubIcon sx ={{ fontSize: 40 }}  />
       </a>
-      <a href="https://google.com" className="lg:w-1/4 border bg-blue-100 text-2xl text-center p-5 ">
+      <a className="lg:w-1/4 border bg-blue-100 text-2xl text-center p-5 ">
           CV <HistoryEduIcon sx ={{ fontSize: 40 }}/> 
       </a>
-   
+  
         </div>
         </div>
     )

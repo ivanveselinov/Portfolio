@@ -2,14 +2,27 @@ import { TextareaAutosize } from "@material-ui/core"
 import { Button, TextField } from "@mui/material"
 import emailjs from 'emailjs-com';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import EmailIcon from '@mui/icons-material/Email';
 import SendIcon from '@mui/icons-material/Send';
 
-function Mailer() {
-    const form = useRef();
 
+function Mailer() {
+        //get    set
+    const[name, setName] = useState('');
+    const[user_name, setUser_name] = useState('');
+    const[message, setMessage] = useState('');
+    
+      const _handlechange = (e) => {
+
+        setName( e.target.value )
+        console.log('i am working');
+    } 
+
+
+    const form = useRef();
     const sendEmail = (e) => {
+
       e.preventDefault();
         // form.current, 
       emailjs.sendForm('service_p6ijwr6', 'template_m9phko7', e.target, 'user_dtiDwo5fBoO5jlMqZQ827')
@@ -18,14 +31,19 @@ function Mailer() {
         }, (error) => {
             console.log(error.text);
         })
+        setName("");
     };
 
 
-    const removeForm = function (e) {
-        e.target.value.name =""
-        e.target.value.user_name =""
-        e.target.value.message =""
-    }
+    // const removeForm = function (e) {
+    //     e.target.value.name = ""
+    //     e.target.value.user_name = ""
+    //     e.target.value.message = ""
+    // }
+
+    // const[name, setName] = useState('');
+    // const[user_name, setUser_name] = useState('');
+    // const[message, setMessage] = useState('');
 
     const Fields='lg:w-full mt-10 xm:w-min shadow-md ';
 
@@ -37,13 +55,15 @@ function Mailer() {
 
 
         <div className="lg:w-1/3 m-auto border-b bg-blue-100 rounded-2xl shadow-xl"> 
+        '
             <form className="ml-1 mr-1"ref={form} onSubmit={sendEmail} >
                 <div className="text-center">
                     <p className="text-2xl"><EmailIcon sx ={{ fontSize: 40 }}/>&nbsp;Send Email</p>
                 </div>
              
             <div className={Fields}>      
-                 <TextField className="bg-white " fullWidth label="Name" name="name" id="fullWidth " required/>
+                 <TextField className="bg-white" fullWidth label="Name" name="name" id="fullWidth " onChange={_handlechange} value={name} required/>
+                 {/* value={this.state.name} onChange={this.setName}  value={this.state.name} onChange={_handlechange}  */}
             </div>
 
             <div className={Fields}>    
