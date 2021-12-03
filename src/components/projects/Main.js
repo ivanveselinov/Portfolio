@@ -8,7 +8,7 @@ function Main() {
     const List="list-item ml-3 p-0.5 ";
  
      return (
-      <div id="projects" className="w-3/4 justify-center flex mt-5 m-auto ">
+      <div className="w-3/4 justify-center flex mt-5 m-auto  ">
       <div className=""> 
       
       <div className=" flex ">

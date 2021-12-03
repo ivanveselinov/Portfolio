@@ -58,7 +58,7 @@ function Mailer() {
 
         <div className="lg:w-1/3 m-auto border-b bg-blue-100 rounded-2xl shadow-xl"> 
         
-            <form className="ml-1 mr-1"ref={form} onSubmit={sendEmail} >
+            <form className="ml-3 mr-3 pt-7 pb-7"ref={form} onSubmit={sendEmail} >
                 <div className="text-center">
                     <p className="text-2xl"><EmailIcon sx ={{ fontSize: 40 }}/>&nbsp;Send Email</p>
                 </div>

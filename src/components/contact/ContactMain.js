@@ -9,7 +9,7 @@ function ContactMain() {
 
   
     return (
-  <div id="contact" className="w-full ">
+  <div className="w-full ">
  
            {/* Contact form */}
     <div className=" w-screen h-20 bg-blue-100 flex justify-between items-center mt-40 ">

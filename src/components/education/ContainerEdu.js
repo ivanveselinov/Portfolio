@@ -15,7 +15,7 @@ function ContainerEdu() {
   const Paragraph="lg:text-xl text-center sm: text-sm"
 
     return (
-        <div id="education" className=" bg-gray-100 ">
+        <div className=" bg-gray-100 pt-4">
         <div className="w-3/4 m-auto">
         
 
@@ -88,7 +88,7 @@ function ContainerEdu() {
              
                   {/* PUBLICATIONS !! */}
 
-                <div id="publication" className={Main}>  {/* MAIN CLASS */}
+                <div id="publication" className={`${Main} pt-4`}>  {/* MAIN CLASS */}
             <p className=" p-20 w-3/4 m-auto border-b text-3xl"><ScienceIcon sx ={{ fontSize: 40 }}/>&nbsp;Publications</p> {/* PUBLICATIONS  */}
             </div>
 

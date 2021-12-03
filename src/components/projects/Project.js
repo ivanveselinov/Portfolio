@@ -5,8 +5,8 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 function Project() {
     return (
 
-         <div className="bg-gray-100 border-t">
-             <h1 className="text-center text-2xl mt-10 mb-10"><DeveloperModeIcon sx ={{ fontSize: 40 }}/>&nbsp;Projects</h1>
+         <div  id="projects" className="bg-gray-100 border-t pt-20">
+             <h1 className="text-center text-2xl mt-10 mb-20"><DeveloperModeIcon sx ={{ fontSize: 40 }}/>&nbsp;Projects</h1>
           <Main />
         </div>
          
