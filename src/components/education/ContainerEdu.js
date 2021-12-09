@@ -39,8 +39,15 @@ function ContainerEdu() {
                    <p></p>
                 </div>
 
-                {/* FICT MASTER */}
-                <div className={Container}> {/* Container */}
+             
+
+                </div>
+
+                
+                <div className={FirstContainer}>   {/* MAIN CLASS */}
+                
+                   {/* FICT MASTER */}
+                   <div className={Container}> {/* Container */}
                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
                    <p className={`${Logo} bg-fict`}> {/* LOGO */}
                    </p> 
@@ -50,22 +57,6 @@ function ContainerEdu() {
                    
                    <p className={Paragraph}><SchoolRoundedIcon sx ={{ fontSize: 40 }}/>Master of Information Technology</p>
                    <br></br>
-                </div>
-
-                </div>
-
-                  {/* INUS*/}
-                <div className={FirstContainer}>   {/* MAIN CLASS */}
-                <div className={Container}> {/* Container */}
-                <div className={ContainerTwo}>  { /* ContainerTwo */ }
-                   <p className={`${Logo} bg-Inus`}> {/* LOGO */}
-                   </p> 
-                   <p className={Title}>INUS
-                   <p>Australia Education and Training </p>
-                   </p>       
-                   </div>
-                   <p className={Paragraph}><SchoolRoundedIcon sx ={{ fontSize: 40 }}/>General English + IELTS Preparation C1</p>
-            
                 </div>
 
                   {/* BACHELOR */}

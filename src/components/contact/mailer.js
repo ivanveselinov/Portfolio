@@ -60,7 +60,10 @@ function Mailer() {
         
             <form className="ml-3 mr-3 pt-7 pb-7"ref={form} onSubmit={sendEmail} >
                 <div className="text-center">
-                    <p className="text-2xl"><EmailIcon sx ={{ fontSize: 40 }}/>&nbsp;Send Email</p>
+                    <p className="text-3xl"><EmailIcon sx ={{ fontSize: 40 }}/>&nbsp; Message me 
+                    </p>
+                    <p className="text-xl">&</p>
+                    <p className="text-xl"> Let's catch up for a coffee</p>
                 </div>
              
             <div className={Fields}>      

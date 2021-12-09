@@ -12,7 +12,7 @@ function Main() {
       <div className=""> 
       
       <div className=" flex ">
-       <a href="https://github.com/ivanveselinov/project0">  { /* LINK IMAGE TO GITHUB */ }
+       <a href="https://ivanveselinov.github.io/project0/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
           <div className={Image}></div>     {/* image */}
         </a>
           <div className={Text}> {/* TEXT DIV*/}
@@ -43,7 +43,7 @@ function Main() {
       </div>
 
         <div className=" flex">
-        <a href="https://github.com/ivanveselinov/project1">  { /* LINK IMAGE TO GITHUB */ }
+        <a href="https://rentalsivan.herokuapp.com/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
           <div className={` ${Image} bg-project1`}></div>     {/* image */}
         </a>
       <div className={Text}>                           {/* TEXT DIV*/}
@@ -76,7 +76,7 @@ function Main() {
       </div>
 
       <div className=" flex">
-      <a href="https://github.com/ivanveselinov/Uniquee">  { /* LINK IMAGE TO GITHUB */ }
+      <a href="https://uniquee.vercel.app/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
         <div className={` ${Image} bg-project2`}></div>        {/* image */}
           </a>
           <div className={Text}> {/* TEXT DIV*/}

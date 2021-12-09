@@ -8,7 +8,7 @@ function AboutMe() {
     <div className="w-3/4 m-auto flex mt-20  mb-40"> 
       < div className=" flex ">
         <div  className="lg:w-full h-22 bg-about bg-cover bg-center xs:hidden">     </div>  {/* IMAGE! */}
-          <div className="lg:text-lg p-10 w-1/2  h-22 overflow-scroll scrollbar-hide max-w-278  bg-blue-200 shadow-lg m-auto focus:outline-none xs: w-full text-sm ">
+          <div className="lg:text-lg p-10 w-1/2  h-22 overflow-scroll max-w-278  bg-blue-200 shadow-lg m-auto focus:outline-none xs: w-full text-sm ">
             <h1 className="text-start text-2xl ml-8">Hello!</h1>
             <h1 className={` ${Paragraph} p-3 ml-5`}>My name is Ivan Veselinov</h1>
              <p className={Paragraph}>     {/* Put this one in more paragraphs */}

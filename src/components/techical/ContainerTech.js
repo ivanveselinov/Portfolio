@@ -14,10 +14,10 @@ function ContainerTech() {
                 <div className="w-3/4 h-screen m-auto mt-10 p-2 ">
                 <div className="text-center text-2xl mt-5 mb-5 "><CloudDoneIcon sx ={{ fontSize: 40 }}/>&nbsp;Technical Skills</div>
                 <div className="w-3/4 h-80 m-auto mb-5 border-t">
-                <p className={`${Skills} lg:text-2xl `}>REACT.JS, Vue.js, Ruby on Rails, Node.js, JavaScript, Jquerry, Underscore. </p>
-                <p className={Skills}>HTML, CSS, Bootstrap, Tailwind. </p>
-                <p className={Skills}>Mongodb, Firebase, Postgresql, SQLite, API integration & Axios requests.</p>
-                <p className={`${Skills} border-b`}>Deployments: GitHub, Heroky, Firebase, Vercel</p>
+                <p className={`${Skills} lg:text-2xl `}>Front-end: React.js, Vue.js, JavaScript, Jquery, Underscore, HTML, CSS, Bootstrap, Tailwind. </p>
+                <p className={Skills}>Backend: Ruby on Rails, Node.js, API integration & Axios requests. </p>
+                <p className={Skills}>Database: MongoDB, Firebase, PostgreSQL, SQLite.</p>
+                <p className={`${Skills} border-b`}>Deployments: GitHub, Heroku, Firebase, Vercel.</p>
                 </div>
 
                 <div className={IconsContainer}>  {/* Icons experience bar */}

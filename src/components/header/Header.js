@@ -12,7 +12,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 function Header() {
     
     return (
-        <div className=" w-screen fixed top-0 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 h-24 justify-between flex pl-10 pr-10 pt-10 sm: text-xs xl:text-base  ">
+        <div className=" w-screen fixed top-0 bg-gradient-to-r from-blue-50 via-blue-100 to-blue-200 h-24 justify-between flex pl-10 pr-10 pt-10 sm: text-xs xl:text-base  ">
             <AnchorLink href="#home" className="lg:text-xl hover:text-blue-300 hover:underline"><HomeIcon/>Home</AnchorLink>
             <AnchorLink href="#about" className="lg:text-xl hover:text-blue-300 hover:underline  "><PersonIcon/> About</AnchorLink>
             <AnchorLink href="#projects" className="lg:text-xl hover:text-blue-300 hover:underline"><CodeIcon/>Projects</AnchorLink>

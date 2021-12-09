@@ -20,7 +20,7 @@ function ContactMain() {
        GitHub <GitHubIcon sx ={{ fontSize: 40 }}  />
       </a>
       <a href={process.env.PUBLIC_URL + '/cv/Ivan%20Veselinov%20Resume.pdf'} download="Ivan Veselinov Resume.pdf" className="lg:w-1/4 border bg-blue-100 text-2xl text-center p-5 ">
-          CV <HistoryEduIcon sx ={{ fontSize: 40 }}/> 
+          Resume <HistoryEduIcon sx ={{ fontSize: 40 }}/> 
       </a>
   
         </div>
