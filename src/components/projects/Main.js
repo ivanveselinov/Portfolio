@@ -1,4 +1,5 @@
 import React from 'react'
+import ReadMoreReact from 'read-more-react';
 
 function Main() {
 
@@ -10,7 +11,8 @@ function Main() {
      return (
       <div className="w-3/4 justify-center flex mt-5 m-auto  ">
       <div className=""> 
-      
+
+      {/* Project 0 */}
       <div className=" flex ">
        <a href="https://ivanveselinov.github.io/project0/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
           <div className={Image}></div>     {/* image */}
@@ -39,9 +41,10 @@ function Main() {
               <p className={List}>CSS</p>
               <p className={List}>JavaScript</p>
               <p className={List}>jQuery</p>
+              <p className="font-bold">Officially launched on 07.10.2021</p>
           </div>
       </div>
-
+        {/* Project 1 */}
         <div className=" flex">
         <a href="https://rentalsivan.herokuapp.com/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
           <div className={` ${Image} bg-project1`}></div>     {/* image */}
@@ -57,12 +60,6 @@ function Main() {
           <p>This Web Application has been created to help people find their next home easily by helping them to navigate and search for properties and Real estate agents by entering minimal data and information such as postcodes.</p>
           </p>
                                 {/* List items */}
-          <p className={` ${ List } mt-1 `} >Virtual Support Chat - This feature includes chat during office house (9am till 6pm) between Guest , Users to Real Estate Agents or Admins. After trade in hours there is an included AutoRobot option that will help and assist you until we come back during office hours next day.</p>
-          <p className={ List } >Guest - They can browse the page, without login and signup, they won't be able to change content but they can chat to Real Estate Agents. They have no authority and access to do anything on this Web Application except to browse the Real Estate properties and look at the different Real Estate Agents.</p>
-          <p className={ List } >Users - In this category comes a landlord who can easily Sign up and Log in by making an account so they can post, view and update their property. They also can talk via virtual support Chat to Real Estate Agents or Admins.</p>
-          <p className={ List } >Premium Users - In this category comes the Real Estate Agents, who are allowed to Add a Property, Remove a Property and have a look into general Users properties and they can appear and act on the virtual support chat like Agents so they can help and support general Users or Premium User. Premium User Login details email: premium@ga.com, password: chicken</p>
-          <p className={ List } >Admin User - This user control everything that is happening on the Web Application, they can add, remove, update and insert new Premium Users and general Users. Also unlimited access on virtual support Chat. This user has all the power on this Web Application. Admin User Login details email: I@ga.com, password: chicken</p>
-          
           <p>To make this project successful we used the following Technologies :</p>
           <p className={` ${ List } mt-1`}>HTML</p>
           <p className={ List } >CSS</p>
@@ -75,6 +72,7 @@ function Main() {
         </div>
       </div>
 
+      {/* Project 2 */}
       <div className=" flex">
       <a href="https://uniquee.vercel.app/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
         <div className={` ${Image} bg-project2`}></div>        {/* image */}
@@ -103,7 +101,36 @@ function Main() {
              </div>
             </div>
             
-      
+            {/* Project 3 */}
+            <div className=" flex ">
+       <a href="https://mls-ivanveselinov.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+       <div className={` ${Image} bg-mls`}></div>        {/* image */}
+        </a>
+          <div className={Text}> {/* TEXT DIV*/}
+            <h1 className={TextHeader}>Multimedia Learning System (MLS)</h1> {/* H1 */}
+              <p>
+              This Online teaching platform is created to help students and teachers to deploy and download materials covered with subject filter 
+              and online realtime chat application to help them to communicate better with their students using social media features.
+              </p>
+              This Online teaching platform has three diferent types of users for login which are:
+              Students, Teachers and Admins.
+              <p>
+              
+             </p>
+
+          
+               {/* List items */}
+              <p className="mb-4">To make this project successful we used the following Technologies :</p>
+              <p  className={` ${ List } mt-1`} >React</p>
+              <p  className={ List } >Tailwind</p>
+              <p  className={ List } >Google Firebase Database</p>
+              <p  className={ List } >Google Firebase Authentication</p>
+              <p  className={ List } >NoSql</p>
+              <p  className={ List } >MUI MUI Components</p>
+              <p  className={ List } >Deployed via Vercel</p>
+              <p className="font-bold">Officially launched on 10.12.2021</p>
+          </div>
+      </div>
       
     </div>
   </div>

@@ -5,8 +5,14 @@
      darkMode: false, // or 'media' or 'class'
      theme: {
        extend: {
+         fontFamily: {
+          'saira' : ['Saira Condensed', 'sans-serif']
+         },
         fontSize: {
           xxl: ['22px', '32px'],
+        },
+        colors: {
+          mine : '#fad662'
         },
         backgroundImage: {
           'home-lg': "url('components/img/Home.jpg')",
@@ -32,6 +38,7 @@
           'GA': "url('components/img/GA.png')",
           'AIIT': "url('components/img/AIIT.png')",
           'ICATCES': "url('components/img/ICATCES.png')",
+          'mls': "url('components/img/mls.jpeg')",
          },
        },
      },
