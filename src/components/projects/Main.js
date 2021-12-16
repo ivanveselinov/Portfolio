@@ -12,6 +12,95 @@ function Main() {
       <div className="w-3/4 justify-center flex mt-5 m-auto  ">
       <div className=""> 
 
+           {/* Project 3 */}
+           <div className=" flex ">
+       <a href="https://mls-ivanveselinov.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+       <div className={` ${Image} bg-mls`}></div>        {/* image */}
+        </a>
+          <div className={Text}> {/* TEXT DIV*/}
+            <h1 className={TextHeader}>Multimedia Learning System (MLS)</h1> {/* H1 */}
+              <p>
+              This Online teaching platform is created to help students and teachers to deploy and download materials covered with subject filter 
+              and online realtime chat application to help them to communicate better with their students using social media features.
+              </p>
+              This Online teaching platform has three diferent types of users for login which are:
+              Students, Teachers and Admins.
+              <p>
+              
+             </p>
+
+          
+               {/* List items */}
+              <p className="mb-4">To make this project successful we used the following Technologies :</p>
+              <p  className={` ${ List } mt-1`} >React</p>
+              <p  className={ List } >Tailwind</p>
+              <p  className={ List } >Google Firebase Database</p>
+              <p  className={ List } >Google Firebase Authentication</p>
+              <p  className={ List } >NoSql</p>
+              <p  className={ List } >MUI MUI Components</p>
+              <p  className={ List } >Deployed via Vercel</p>
+              <p className="font-bold">Officially launched on 10.12.2021</p>
+          </div>
+      </div>
+
+
+        {/* Project 2 */}
+        <div className=" flex">
+      <a href="https://uniquee.vercel.app/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
+        <div className={` ${Image} bg-project2`}></div>        {/* image */}
+          </a>
+          <div className={Text}> {/* TEXT DIV*/}
+            <h1 className={TextHeader}>Uniquee
+            <p>Inspired by Facebook</p>
+            </h1>
+
+              {/* Paragraph */}
+              <p>This group project is made for learning purposes.</p>              
+            
+              <p>This project outlines the full-stack knowledge learnt during these past 8 weeks of class. The project was inspired by Facebook because it is a real time application.
+              Uniquee has been created to help people sell their uniquee and rare products with other users online by quick sign up through Facebook, Google or GitHub. </p>
+
+                           {/* List items */}
+             <p >To make this project successful we used the following Technologies :</p>
+             <p  className={` ${ List } mt-1`} >React</p>
+             <p  className={ List } >Tailwind</p>
+             <p  className={ List } >Google Firebase Database</p>
+             <p  className={ List } >Google Firebase Authentication</p>
+             <p  className={ List } >NoSql</p>
+             <p  className={ List } >MUI MUI Components</p>
+             <p  className={ List } >Deployed via Vercel</p>
+            <p className="font-bold">Officially launched on 19.11.2021</p>
+             </div>
+            </div>
+
+        {/* Project 1 */}
+        <div className=" flex">
+        <a href="https://rentalsivan.herokuapp.com/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
+          <div className={` ${Image} bg-project1`}></div>     {/* image */}
+        </a>
+      <div className={Text}>                           {/* TEXT DIV*/}
+            <h1 className={TextHeader}>Real Estate Solution 
+            <p>( Western Suburb Agency )</p>
+            </h1>
+
+              {/* Paragraph */}
+          <p>
+          This project is made for learning purposes. 
+          <p>This Web Application has been created to help people find their next home easily by helping them to navigate and search for properties and Real estate agents by entering minimal data and information such as postcodes.</p>
+          </p>
+                                {/* List items */}
+          <p>To make this project successful we used the following Technologies :</p>
+          <p className={` ${ List } mt-1`}>HTML</p>
+          <p className={ List } >CSS</p>
+          <p className={ List } >Ruby on Rails</p>
+          <p className={ List } >Postgresql</p>
+          <p className={ List } >Bootstrap</p>
+          <p className={ List } >Cloudinary</p>
+          <p className={ List } >Tidio Online Chat solution</p>
+          <p className="font-bold">Officially launched on 29.10.2021.</p>
+        </div>
+      </div>
+
       {/* Project 0 */}
       <div className=" flex ">
        <a href="https://ivanveselinov.github.io/project0/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
@@ -44,93 +133,12 @@ function Main() {
               <p className="font-bold">Officially launched on 07.10.2021</p>
           </div>
       </div>
-        {/* Project 1 */}
-        <div className=" flex">
-        <a href="https://rentalsivan.herokuapp.com/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
-          <div className={` ${Image} bg-project1`}></div>     {/* image */}
-        </a>
-      <div className={Text}>                           {/* TEXT DIV*/}
-            <h1 className={TextHeader}>Real Estate Solution 
-            <p>( Western Suburb Agency )</p>
-            </h1>
+       
 
-              {/* Paragraph */}
-          <p>
-          This project is made for learning purposes. 
-          <p>This Web Application has been created to help people find their next home easily by helping them to navigate and search for properties and Real estate agents by entering minimal data and information such as postcodes.</p>
-          </p>
-                                {/* List items */}
-          <p>To make this project successful we used the following Technologies :</p>
-          <p className={` ${ List } mt-1`}>HTML</p>
-          <p className={ List } >CSS</p>
-          <p className={ List } >Ruby on Rails</p>
-          <p className={ List } >Postgresql</p>
-          <p className={ List } >Bootstrap</p>
-          <p className={ List } >Cloudinary</p>
-          <p className={ List } >Tidio Online Chat solution</p>
-          <p className="font-bold">Officially launched on 29.10.2021.</p>
-        </div>
-      </div>
 
-      {/* Project 2 */}
-      <div className=" flex">
-      <a href="https://uniquee.vercel.app/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
-        <div className={` ${Image} bg-project2`}></div>        {/* image */}
-          </a>
-          <div className={Text}> {/* TEXT DIV*/}
-            <h1 className={TextHeader}>Uniquee
-            <p>Inspired by Facebook</p>
-            </h1>
-
-              {/* Paragraph */}
-              <p>This group project is made for learning purposes.</p>              
+    
             
-              <p>This project outlines the full-stack knowledge learnt during these past 8 weeks of class. The project was inspired by Facebook because it is a real time application.
-              Uniquee has been created to help people sell their uniquee and rare products with other users online by quick sign up through Facebook, Google or GitHub. </p>
-
-                           {/* List items */}
-             <p >To make this project successful we used the following Technologies :</p>
-             <p  className={` ${ List } mt-1`} >React</p>
-             <p  className={ List } >Tailwind</p>
-             <p  className={ List } >Google Firebase Database</p>
-             <p  className={ List } >Google Firebase Authentication</p>
-             <p  className={ List } >NoSql</p>
-             <p  className={ List } >MUI MUI Components</p>
-             <p  className={ List } >Deployed via Vercel</p>
-            <p className="font-bold">Officially launched on 19.11.2021</p>
-             </div>
-            </div>
-            
-            {/* Project 3 */}
-            <div className=" flex ">
-       <a href="https://mls-ivanveselinov.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
-       <div className={` ${Image} bg-mls`}></div>        {/* image */}
-        </a>
-          <div className={Text}> {/* TEXT DIV*/}
-            <h1 className={TextHeader}>Multimedia Learning System (MLS)</h1> {/* H1 */}
-              <p>
-              This Online teaching platform is created to help students and teachers to deploy and download materials covered with subject filter 
-              and online realtime chat application to help them to communicate better with their students using social media features.
-              </p>
-              This Online teaching platform has three diferent types of users for login which are:
-              Students, Teachers and Admins.
-              <p>
-              
-             </p>
-
-          
-               {/* List items */}
-              <p className="mb-4">To make this project successful we used the following Technologies :</p>
-              <p  className={` ${ List } mt-1`} >React</p>
-              <p  className={ List } >Tailwind</p>
-              <p  className={ List } >Google Firebase Database</p>
-              <p  className={ List } >Google Firebase Authentication</p>
-              <p  className={ List } >NoSql</p>
-              <p  className={ List } >MUI MUI Components</p>
-              <p  className={ List } >Deployed via Vercel</p>
-              <p className="font-bold">Officially launched on 10.12.2021</p>
-          </div>
-      </div>
+ 
       
     </div>
   </div>
