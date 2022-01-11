@@ -53,14 +53,14 @@ function Mailer() {
      
     
     <div className="mt-20 ">
-           <p className="text-center text-3xl mt-b mb-20 "><ContactMailIcon sx ={{ fontSize: 40 }}/>&nbsp;Contact</p>
+           <p className="text-center text-3xl mt-b mb-20 "><ContactMailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Contact</p>
 
 
         <div className="lg:w-1/3 m-auto border-b bg-blue-100 rounded-2xl shadow-xl"> 
         
             <form className="ml-3 mr-3 pt-7 pb-7"ref={form} onSubmit={sendEmail} >
                 <div className="text-center">
-                    <p className="text-3xl"><EmailIcon sx ={{ fontSize: 40 }}/>&nbsp; Message me 
+                    <p className="text-3xl"><EmailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp; Message me 
                     </p>
                     <p className="text-xl">&</p>
                     <p className="text-xl"> Let's catch up for a coffee</p>

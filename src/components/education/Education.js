@@ -3,7 +3,7 @@ import ContainerEdu from './ContainerEdu'
 
 function Education() {
     return (
-        <div id="education" className="" >
+        <div id="education" >
             <ContainerEdu />
         </div>
     )

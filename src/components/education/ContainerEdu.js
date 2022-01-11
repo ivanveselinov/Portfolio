@@ -21,7 +21,7 @@ function ContainerEdu() {
 
             {/* General Assembly */}
             <div className={Main}>  {/* MAIN CLASS */}
-            <p className="p-20 w-3/4 m-auto border-b text-3xl"><HistoryEduRoundedIcon sx ={{ fontSize: 40 }}/>&nbsp;Education</p>
+            <p className="p-20 w-3/4 m-auto border-b text-3xl"><HistoryEduRoundedIcon sx ={{ fontSize: 40 }} className='mb-2'/>&nbsp;Education</p>
             </div>
 
             <div className={FirstContainer}>  
@@ -80,7 +80,7 @@ function ContainerEdu() {
                   {/* PUBLICATIONS !! */}
 
                 <div id="publication" className={`${Main} pt-4`}>  {/* MAIN CLASS */}
-            <p className=" p-20 w-3/4 m-auto border-b text-3xl"><ScienceIcon sx ={{ fontSize: 40 }}/>&nbsp;Publications</p> {/* PUBLICATIONS  */}
+            <p className=" p-20 w-3/4 m-auto border-b text-3xl"><ScienceIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Publications</p> {/* PUBLICATIONS  */}
             </div>
 
             <div className={FirstContainer}> 

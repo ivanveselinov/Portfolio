@@ -6,7 +6,7 @@ function Main() {
     const TextHeader="lg: text-center text-2xl mb-2 "  
     const Text=" lg: show w-full text-lg  h-250 p-10 border-2 bg-blue-200 m-auto mt-1 focus:outline-none overflow-scroll scrollbar-hide rounded-xl mb-2 hidden md:block ";
     const Image="lg: w-400 border-2 m-auto mt-1 bg-project0 bg-cover h-250 bg-center rounded-xl mb-2";
-    const List="list-item ml-3 p-0.5 ";
+    const List="list-item ml-3 p-0.5 pb-5 ";
  
      return (
       <div className="w-3/4 justify-center flex mt-5 m-auto  ">

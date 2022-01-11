@@ -9,7 +9,7 @@ function AboutMe() {
     return (
       
     <div className="w-3/4 m-auto flex mt-20  mb-40"> 
-      < div className=" flex ">
+      <div className=" flex ">
         <div  className="lg:w-1/2 h-22 bg-about bg-cover bg-center xs:hidden">     </div>  {/* IMAGE! */}
           <div className="lg:text-lg p-10 w-1/2  break-words h-22 overflow-scroll max-w-278  bg-blue-200 shadow-lg m-auto focus:outline-none xs: w-full text-sm ">
             {/* <h1 className="text-start text-2xl ml-8">Hello!</h1>
@@ -43,7 +43,7 @@ function AboutMe() {
                />      */}
               </p>   
           </div>
-    </div>
+      </div>
     </div>
 
     
