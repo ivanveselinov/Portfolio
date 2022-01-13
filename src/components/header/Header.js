@@ -19,7 +19,7 @@ function Header() {
             <AnchorLink href="#tech" className="lg:text-xl hover:text-blue-300 hover:underline"><WorkIcon className={icons}/>Skills</AnchorLink>
             <AnchorLink href="#education" className="lg:text-xl hover:text-blue-300 hover:underline"><SchoolIcon className={icons}/>Education</AnchorLink>
             <AnchorLink href="#publication" className="lg:text-xl hover:text-blue-300 hover:underline"><ArticleIcon className={icons}/>Publications</AnchorLink>
-            <AnchorLink href="#contact" className="lg:text-xl hover:text-blue-300 hover:underline"><ContactsIcon className='mb-3'/>Contact</AnchorLink>
+            <AnchorLink href="#contact" className="lg:text-xl hover:text-blue-300 hover:underline"><ContactsIcon className='sm: mb-2 lg:mb-3'/>Contact</AnchorLink>
      </div>
 
        
