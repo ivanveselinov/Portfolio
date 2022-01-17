@@ -3,6 +3,9 @@ import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
 import HistoryEduRoundedIcon from '@mui/icons-material/HistoryEduRounded';
 import FindInPageIcon from '@mui/icons-material/FindInPage';
 import ArticleIcon from '@mui/icons-material/Article';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+
 
 function ContainerEdu() {
 
@@ -16,16 +19,18 @@ function ContainerEdu() {
   const iconsTop = "mb-2"
   const iconsPub = "mb-1"
     return (
+      <Fade duration={3000}> 
         <div className=" bg-gray-100 pt-4">
         <div className="w-3/4 m-auto">
-        
 
-            {/* General Assembly */}
+            
             <div className={Main}>  {/* MAIN CLASS */}
             {/* HistoryEduRoundedIcon */}
             <p className="p-20 w-3/4 m-auto border-b text-3xl"><SchoolRoundedIcon sx ={{ fontSize: 40 }} className={iconsTop}/>&nbsp;Education</p>
             </div>
 
+              {/* General Assembly */}
+          <Zoom center duration={3000}>
             <div className={FirstContainer}>  
                 <div className={ `${Container} mr-2`}> {/* Container */}
                 <div className={ContainerTwo}> { /* ContainerTwo */ }
@@ -44,12 +49,13 @@ function ContainerEdu() {
              
 
                 </div>
-
+              </Zoom>
                 
                 <div className={FirstContainer}>   {/* MAIN CLASS */}
                 
-                   {/* FICT MASTER */}
-                   <div className={Container}> {/* Container */}
+                   {/* FICT MASTER */}    
+            <Zoom center duration={3000}>
+              <div className={Container}> {/* Container */}
                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
                    <p className={`${Logo} bg-fict`}> {/* LOGO */}
                    </p> 
@@ -60,8 +66,10 @@ function ContainerEdu() {
                    <p className={Paragraph}><HistoryEduRoundedIcon sx ={{ fontSize: 40 }} className={iconsPub}/>Master of Information Technology</p>
                    <br></br>
                 </div>
+              </Zoom>
 
                   {/* BACHELOR */}
+              <Zoom center duration={3000}> 
                 <div className={`${Container}`}> {/* Container */}
                 <div className={ContainerTwo}> { /* ContainerTwo */ }
                    <p className={`${Logo} bg-tfb`}> {/* LOGO */}
@@ -76,18 +84,23 @@ function ContainerEdu() {
                    <p></p>
                  
                 </div>
+              </Zoom> 
                 </div>
-
+           
              
                   {/* PUBLICATIONS !! */}
-
-                <div id="publication" className={`${Main} pt-4`}>  {/* MAIN CLASS */}
+         
+            <div id="publication" className={`${Main} pt-4`}>  {/* MAIN CLASS */}
             <p className=" p-20 w-3/4 m-auto border-b text-3xl"><ArticleIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Publications</p> {/* PUBLICATIONS  */}
             </div>
+          
+     
+            <div className={FirstContainer}>
 
-            <div className={FirstContainer}> 
+               {/* Can we Fight Social Media!!  */}
+              <Zoom center duration={3000}> 
                 <div className={Container}> {/* Container */}
-                <div className={ContainerTwo}>  { /* ContainerTwo */ }
+                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
                    <p className={`${Logo} bg-ICATCES`}> {/* LOGO */}
                    </p> 
                    <p className={Title}>Can we Fight Social Media 
@@ -100,10 +113,13 @@ function ContainerEdu() {
                    <p className="text-center text-xl p-2 ">Page: 212   </p>
                    <a href="https://muh.karabuk.edu.tr/bilgisayar/icatces/proceeding_book_2019.pdf" className="text-center text-xl ">More..</a>
                    </div>
-                
+               
                 
                 </div>
+              </Zoom>
 
+                  {/* MLS  */}
+              <Zoom center duration={3000}> 
                 <div className={Container}> {/* Container */}
                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
                    <p className={`${Logo} bg-AIIT mb-2`}> {/* LOGO */}
@@ -121,11 +137,12 @@ function ContainerEdu() {
                    </div>
                   
                 </div>
-                </div>
+              </Zoom>               
+              </div>
 
             </div>
         </div>
-        
+      </Fade>
     )
 }
 

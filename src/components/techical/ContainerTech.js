@@ -1,5 +1,7 @@
 import React from 'react'
 import CloudDoneIcon from '@mui/icons-material/CloudDone';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 function ContainerTech() {
 
@@ -8,7 +10,7 @@ function ContainerTech() {
     const Skills="lg:text-xl p-5 text-center sm: text-xs"
 
     return (
-
+      <Fade duration={3000}>
         <div>
             <div className="w-full h-screen">  
                 <div className="w-3/4 h-screen m-auto mt-10 p-2 ">
@@ -20,6 +22,7 @@ function ContainerTech() {
                 <p className={`${Skills} border-b`}>Deployments: GitHub, Heroku, Firebase, Vercel.</p>
                 </div>
 
+                <Zoom duration={2000}>
                 <div className={IconsContainer}>  {/* Icons experience bar */}
                     <p className={`${Icons} bg-react`}></p> 
                     <p className={`${Icons} bg-vue`}></p>
@@ -28,7 +31,9 @@ function ContainerTech() {
                     <p className={`${Icons} bg-jquery`}></p>
                     <p className={`${Icons} bg-ruby`}></p>
                 </div>
-                
+                </Zoom>
+
+                <Zoom duration={2000}>
                 <div className={IconsContainer}>
                     <p className={`${Icons} bg-nodejs`}></p>
                     <p className={`${Icons} bg-tailwind`}></p>
@@ -37,9 +42,12 @@ function ContainerTech() {
                     <p className={`${Icons} bg-firebase `}></p>
                     <p className={`${Icons} bg-mongodb`}></p>
                     </div>
+                </Zoom>
+                
                 </div>
             </div>
         </div>
+      </Fade>
     )
 }
 

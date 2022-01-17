@@ -5,6 +5,7 @@ import ContactMailIcon from '@mui/icons-material/ContactMail';
 import React, { useRef, useState } from 'react';
 import EmailIcon from '@mui/icons-material/Email';
 import SendIcon from '@mui/icons-material/Send';
+import Zoom from 'react-reveal/Zoom';
 
 
 function Mailer() {
@@ -50,7 +51,7 @@ function Mailer() {
     const Fields='lg:w-full mt-10 xm:w-min shadow-md ';
 
     return (
-     
+    <Zoom duration={3000}>
     
     <div className="mt-20 ">
            <p className="text-center text-3xl mt-b mb-20 "><ContactMailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Contact</p>
@@ -99,6 +100,7 @@ function Mailer() {
             </form>
         </div>
     </div>
+    </Zoom>
     );
 };
 export default Mailer

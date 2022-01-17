@@ -1,13 +1,13 @@
 import React from 'react'
 import ReadMoreReact from 'read-more-react';
-
+import Fade from 'react-reveal/Fade';
 
 function AboutMe() {
 
     const Paragraph = "lg:text-xxl sm: text-sm text-left"
 
     return (
-      
+    <Fade duration={3000}>
     <div className="w-3/4 m-auto flex mt-20  mb-40"> 
       <div className=" flex ">
         <div  className="lg:w-1/2 h-22 bg-about bg-cover bg-center xs:hidden">     </div>  {/* IMAGE! */}
@@ -45,7 +45,7 @@ function AboutMe() {
           </div>
       </div>
     </div>
-
+    </Fade>
     
     )
 }

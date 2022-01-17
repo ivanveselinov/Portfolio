@@ -1,5 +1,6 @@
 import React from 'react'
 import ReadMoreReact from 'read-more-react';
+import Zoom from 'react-reveal/Zoom';
 
 function Main() {
 
@@ -11,9 +12,10 @@ function Main() {
      return (
       <div className="w-3/4 justify-center flex mt-5 m-auto  ">
       <div className=""> 
-
+      
            {/* Project 3 */}
-           <div className=" flex ">
+      <Zoom center duration={3000}>
+       <div className=" flex ">
        <a href="https://mls-ivanveselinov.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
        <div className={` ${Image} bg-mls`}></div>        {/* image */}
         </a>
@@ -42,11 +44,13 @@ function Main() {
               <p className="font-bold">Officially launched on 10.12.2021</p>
           </div>
       </div>
+    </Zoom>
 
-
+    
         {/* Project 2 */}
-        <div className=" flex">
-      <a href="https://uniquee.vercel.app/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
+    <Zoom center duration={3000}>
+      <div className=" flex">
+        <a href="https://uniquee.vercel.app/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
         <div className={` ${Image} bg-project2`}></div>        {/* image */}
           </a>
           <div className={Text}> {/* TEXT DIV*/}
@@ -72,8 +76,10 @@ function Main() {
             <p className="font-bold">Officially launched on 19.11.2021</p>
              </div>
             </div>
-
+    </Zoom>
+        
         {/* Project 1 */}
+        <Zoom center duration={3000}>
         <div className=" flex">
         <a href="https://rentalsivan.herokuapp.com/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
           <div className={` ${Image} bg-project1`}></div>     {/* image */}
@@ -100,8 +106,10 @@ function Main() {
           <p className="font-bold">Officially launched on 29.10.2021.</p>
         </div>
       </div>
+      </Zoom>
 
       {/* Project 0 */}
+    <Zoom center duration={3000}>
       <div className=" flex ">
        <a href="https://ivanveselinov.github.io/project0/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
           <div className={Image}></div>     {/* image */}
@@ -133,6 +141,7 @@ function Main() {
               <p className="font-bold">Officially launched on 07.10.2021</p>
           </div>
       </div>
+    </Zoom>
        
 
 
