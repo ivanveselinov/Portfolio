@@ -63,7 +63,7 @@ function ContainerEdu() {
                      </p>
                    </div>
                    
-                   <p className={Paragraph}><HistoryEduRoundedIcon sx ={{ fontSize: 40 }} className={iconsPub}/>Master of Information Technology</p>
+                   <p className={Paragraph}><HistoryEduRoundedIcon sx ={{ fontSize: 40 }} className={iconsPub}/>Master in Computer Science</p>
                    <br></br>
                 </div>
               </Zoom>
