@@ -12,4 +12,3 @@ function Container() {
 }
 
 export default Container
-// border-1 bg-gray-900

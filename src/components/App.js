@@ -7,7 +7,6 @@ import Technical from "./techical/Technical";
 import Education from "../components/education/Education"
 
 
-
 function App() {
   return (
     <div className="App ">

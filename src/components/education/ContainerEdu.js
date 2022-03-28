@@ -18,6 +18,7 @@ function ContainerEdu() {
   const Paragraph="lg:text-xl text-center sm: text-sm"
   const iconsTop = "mb-2"
   const iconsPub = "mb-1"
+  
     return (
       <Fade duration={3000}> 
         <div className=" bg-gray-100 pt-4">
