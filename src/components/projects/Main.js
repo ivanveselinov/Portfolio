@@ -16,7 +16,7 @@ function Main() {
 {/*Project 4*/}
 <Zoom center duration={3000}>
       <div className=" flex ">
-       <a href="https://memoriesshare.netlify.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+       <a href="https://memories-auth.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
           <div className={` ${Image} bg-memories `}></div>     {/* image */}
         </a>
           <div className={Text}> {/* TEXT DIV*/}
