@@ -13,8 +13,9 @@ function Home() {
                     <Typing speed={100}>
                         <p className='lg:p-2 font-bold '>Hello!</p> 
                         <p className={` ${text} lg:ml-5`}>My name is Ivan Veselinov✌️</p> 
-                        <p className={`${text} lg:ml-10`}>I am a Full-Stack Web Developer and IT Technician 💻 </p>
-                        <p className={`${text} lg:ml-16`}>based in Melbourne 🇦🇺</p>
+                        <p className={`${text} lg:ml-10`}>I am a DevOps Engineer, Full-Stack Web Developer </p>
+                        <p className={`${text} lg:ml-16`}>and IT Technician 💻</p>
+                        <p className={`${text} lg:ml-24`}>based in Melbourne 🇦🇺</p>
                     <Typing.Speed ms={200} />
                         <p className='ml-5'></p>   
                     </Typing>
