@@ -21,7 +21,8 @@ function ContainerTech() {
                 <p className={Skills}><strong>Database:</strong> MongoDB, Firebase, PostgreSQL, Docker, SQLite.</p>
                 <p className={`${Skills}`}><strong>Deployments:</strong> GitHub, Heroku, Firebase, Vercel, Netlify.</p>
                 <p className={`${Skills} `}><strong>DevOps:</strong> MySQL, Bash Scripting, AWS Beckup.</p>
-                <p className={`${Skills} border-b`}>AWS WAF Protection, OWASP ZAP.</p>
+                <p className={`${Skills}`}>AWS WAF Protection, OWASP ZAP.</p>
+                <p className={`${Skills} border-b`}>Postman API, Regular Expressions.</p>
                 </div>
 
                 
