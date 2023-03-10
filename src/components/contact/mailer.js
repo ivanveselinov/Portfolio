@@ -18,7 +18,7 @@ function Mailer() {
       const _handlechange = (e) => {
         setName( e.target.value );
 
-        console.log('i am working');
+        // console.log('i am working');
     } 
                 // onChange email   
     const _emailChanger = (e) => {
