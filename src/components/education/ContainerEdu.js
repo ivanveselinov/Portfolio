@@ -112,7 +112,7 @@ function ContainerEdu() {
                    <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }}  className={iconsPub}/>International Conference on Advanced Technologies, Computer Engineering and Science (ICATCES 2019) Alanya, Turkey · Apr 26, 2019</p>
                    <div className="flex justify-between mt-4 ">
                    <p className="text-center text-xl p-2 ">Page: 212   </p>
-                   <a href="https://muh.karabuk.edu.tr/bilgisayar/icatces/proceeding_book_2019.pdf" className="text-center text-xl ">More..</a>
+                   <a href="https://muh.karabuk.edu.tr/bilgisayar/icatces/proceeding_book_2019.pdf" target="_blank" className="text-center text-xl ">More..</a>
                    </div>
                
                 
@@ -134,7 +134,7 @@ function ContainerEdu() {
                             <br></br>
                    <div className="flex justify-between p-2 ">
                    <p className="text-center text-xl ">Page: 135</p>
-                   <a href="https://aiitconference.org/2018/files/Proceedings_AIIT2018.pdf" className="text-center text-xl ">More..</a>
+                   <a href="https://aiitconference.org/2018/files/Proceedings_AIIT2018.pdf " target="_blank" className="text-center text-xl ">More..</a>
                    </div>
                   
                 </div>
