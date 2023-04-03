@@ -9,7 +9,7 @@ import Education from "../components/education/Education"
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App overflow-hidden">
     <Header />
     <Home />
     <Main />
