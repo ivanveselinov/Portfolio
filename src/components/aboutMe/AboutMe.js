@@ -11,12 +11,12 @@ function AboutMe() {
     <div className="w-3/4 m-auto flex mt-20 mb-40"> 
       <div className=" flex ">
         <div  className="lg:w-1/2 h-22 bg-about bg-cover bg-center xs:hidden">     </div>  {/* IMAGE! */}
-          <div className="lg:text-lg p-10 w-1/2  break-words h-22 overflow-scroll max-w-278  bg-blue-200 shadow-lg m-auto focus:outline-none xs: w-full text-sm ">
+          <div className="lg:text-lg p-10 w-1/2  break-words h-22 overflow-hidden max-w-278  bg-blue-200 shadow-lg m-auto focus:outline-none xs: w-full text-sm ">
             
              <p className={Paragraph}>     {/* Put this one in more paragraphs */}
                {/* Text about me !!*/}
            
-              <p className="mb-4 mt-4 overflow-hidden">
+              <p className="mb-4 mt-4">
                Since I was about 10 years old my passion and focus has been on anything to do with 
                computers and after ten long years working in various jobs, I decided it was finally
                time to follow my dreams and find a dream job in Information Technology which is what makes
