@@ -17,7 +17,7 @@ function Main() {
 <Zoom center duration={3000}>
       <div className=" flex ">
        <a href="https://memories-auth.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
-          <div className={` ${Image} `}></div>     {/* image */}
+          <div className={` ${Image} bg-memories`}></div>     {/* image */}
         </a>
           <div className={Text}> {/* TEXT DIV*/}
             <h1 className={TextHeader}>Share a Memory</h1> {/* H1 */}
