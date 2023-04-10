@@ -12,9 +12,44 @@ function Main() {
      return (
       <div className="w-3/4 justify-center flex mt-5 m-auto">
       <div className=""> 
+
+   {/* Project 5 */}
+   <Zoom center duration={3000}>
+       <div className=" flex ">
+       <a href="https://ice-concrete.vercel.app/" target="iceConcrete"> {/* LINK IMAGE TO GITHUB */ }
+       <div className={` ${Image} bg-project4`}></div>        {/* image */}
+        </a>
+          <div className={Text}> {/* TEXT DIV*/}
+            <h1 className={TextHeader}>Ice Concreting</h1> {/* H1 */}
+              <p>
+              This Web appication has been created to support my friend's small business and to increase his popularity and his sales. 
+              This website also aims to track every interaction with customers and potential customers. 
+              Another advantage of this web application is that it gives details about the products and services offered and can be accessed by anyone no matter where they are. 
+              This web application will let the Admin user manage his web application independently without involving the web developer into it e.g. setup aboutUs and Project information to post new stuff and to remove them from the page
+              </p>
+              This Online teaching platform has three diferent types of users for login which are:
+              Students, Teachers and Admins.
+              <p>
+              
+             </p>
+
+          
+               {/* List items */}
+              <p className={techStack}>To make this project successful we used the following Technologies :</p>
+              <p  className={` ${ List } mt-1`} >React</p>
+              <p  className={ List } >Tailwind</p>
+              <p  className={ List } >Google Firebase Database</p>
+              <p  className={ List } >Google Firebase Authentication</p>
+              <p  className={ List } >NoSql</p>
+              <p  className={ List } >MUI MUI Components</p>
+              <p  className={ List } >Deployed via Vercel</p>
+              <p className="font-bold">Officially launched on 10.04.2023</p>
+          </div>
+      </div>
+    </Zoom>
       
 {/*Project 4*/}
-<Zoom center duration={3000}>
+    <Zoom center duration={3000}>
       <div className=" flex ">
        <a href="https://memories-auth.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
           <div className={` ${Image} bg-memories`}></div>     {/* image */}
