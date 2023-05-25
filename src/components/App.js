@@ -5,6 +5,8 @@ import Project from "./projects/Project";
 import ContactMe from "./contact/ContactMe";
 import Technical from "./techical/Technical";
 import Education from "../components/education/Education"
+import WorkExperienceMain from "./workExperience/WorkExperienceMain";
+
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
     <Header />
     <Home />
     <Main />
+    <WorkExperienceMain />
     <Project />
     <Technical />
     <Education />
