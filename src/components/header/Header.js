@@ -7,6 +7,7 @@ import ContactsIcon from '@mui/icons-material/Contacts';
 import SchoolIcon from '@mui/icons-material/School';
 import ArticleIcon from '@mui/icons-material/Article';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 
 
 function Header() {
@@ -15,6 +16,7 @@ function Header() {
         <div className=" z-10 w-screen fixed top-0 bg-gradient-to-r from-blue-50 via-blue-100 to-blue-200 h-24 justify-between flex pl-10 pr-10 pt-10 sm: text-xs xl:text-base  ">
             <AnchorLink href="#home" className="lg:text-xl hover:text-blue-300 hover:underline "><HomeIcon className={icons}/>Home</AnchorLink>
             <AnchorLink href="#about" className="lg:text-xl hover:text-blue-300 hover:underline  "><PersonIcon className={icons}/> About</AnchorLink>
+            <AnchorLink href="#workExperience" className="lg:text-xl hover:text-blue-300 hover:underline  "><LaptopChromebookIcon className={icons}/> Work Experience</AnchorLink>
             <AnchorLink href="#projects" className="lg:text-xl hover:text-blue-300 hover:underline"><CodeIcon className={icons}/>Projects</AnchorLink>
             <AnchorLink href="#tech" className="lg:text-xl hover:text-blue-300 hover:underline"><WorkIcon className={icons}/>Skills</AnchorLink>
             <AnchorLink href="#education" className="lg:text-xl hover:text-blue-300 hover:underline"><SchoolIcon className={icons}/>Education</AnchorLink>

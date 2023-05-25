@@ -1,9 +1,6 @@
 import React from 'react'
-import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
-import HistoryEduRoundedIcon from '@mui/icons-material/HistoryEduRounded';
 import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 import { Fade, Zoom } from 'react-reveal'
-import { tableSortLabelClasses } from '@mui/material';
 
 const WorkExperience = () => {
   
@@ -15,9 +12,7 @@ const WorkExperience = () => {
   const Title="lg:text-3xl m-auto ml-10 border-b md:text-2xl sm: text-2xl font-bold"
   const positionTitle="text-center mt-1 w-full h-10 text-xl font-bold"
   const since="text-center mt-1 w-full h-10  text-xl"
-  const Paragraph="lg:text-xl text-center sm: text-sm"
   const iconsTop = "mb-2"
-  const iconsPub = "mb-1"
   
     return (
       <Fade duration={3000}> 
