@@ -31,19 +31,23 @@ const WorkExperience = () => {
             <Zoom center duration={3000}>
               <div className={Container}> {/* Container */}
                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
-                <p className={`${Logo} bg-teamAssurance`}></p>
-                   <p className={Title}>TeamAssurance</p>
-                   </div>
-                   <p className={positionTitle}>Position/Title: DevOps Developer</p>
-                   <p className={since}>January 2021 - February 2023</p>
+                  <a href="https://teamassurance.com/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+                    <p className={`${Logo} bg-teamAssurance`}></p>
+                  </a>
+                  <p className={Title}>TeamAssurance</p>    
                 </div>
+                <p className={positionTitle}>Position/Title: DevOps Developer</p>
+                <p className={since}>January 2021 - February 2023</p>
+              </div>
               </Zoom>
 
                   {/* Dek Technologies */}
                   <Zoom center duration={3000}>
                     <div className={Container}> {/* Container */}
                         <div className={ContainerTwo}>  { /* ContainerTwo */ }
-                        <p className={`${Logo} bg-dekTechnologies`}></p>
+                        <a href="https://www.dektech.com.au/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+                          <p className={`${Logo} bg-dekTechnologies`}></p>
+                        </a>
                         <p className={Title}>Dek Technologies</p>
                         </div>
                         <p className={positionTitle}>Position/Title: DevOps Engineer</p>
