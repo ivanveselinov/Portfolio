@@ -13,15 +13,20 @@ import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 function Header() {
     const icons = "mb-2";
     return (
-        <div className=" z-10 w-screen fixed top-0 bg-gradient-to-r from-blue-50 via-blue-100 to-blue-200 h-24 justify-between flex pl-10 pr-10 pt-10 sm: text-xs xl:text-base  ">
+    <div className=" z-10 w-screen fixed top-0 bg-gradient-to-r from-blue-50 via-blue-100 to-blue-200 h-24 ">
+        <div className="w-full h-20 justify-between flex sm: text-xs xl:text-base xs:text-center text-center sm: p-6 md:p-10 lg:p-10">
             <AnchorLink href="#home" className="lg:text-xl hover:text-blue-300 hover:underline "><HomeIcon className={icons}/>Home</AnchorLink>
             <AnchorLink href="#about" className="lg:text-xl hover:text-blue-300 hover:underline  "><PersonIcon className={icons}/> About</AnchorLink>
-            <AnchorLink href="#workExperience" className="lg:text-xl hover:text-blue-300 hover:underline  "><LaptopChromebookIcon className={icons}/> Work Experience</AnchorLink>
+            <AnchorLink href="#workExperience" className="lg:text-xl lg:flex md:flex sm:flex xs:block hover:text-blue-300 text-center hover:underline ">
+                <div><LaptopChromebookIcon className={`${icons} md:mt-0 lg:mt-1`}/></div>
+                <div className="xs:mt-2 sm:mt-2 md:mt-1 lg:mt-0"> Work Experience</div>
+            </AnchorLink>
             <AnchorLink href="#projects" className="lg:text-xl hover:text-blue-300 hover:underline"><CodeIcon className={icons}/>Projects</AnchorLink>
             <AnchorLink href="#tech" className="lg:text-xl hover:text-blue-300 hover:underline"><WorkIcon className={icons}/>Skills</AnchorLink>
             <AnchorLink href="#education" className="lg:text-xl hover:text-blue-300 hover:underline"><SchoolIcon className={icons}/>Education</AnchorLink>
             <AnchorLink href="#publication" className="lg:text-xl hover:text-blue-300 hover:underline"><ArticleIcon className={icons}/>Publications</AnchorLink>
             <AnchorLink href="#contact" className="lg:text-xl hover:text-blue-300 hover:underline"><ContactsIcon className='sm: mb-2 lg:mb-2.6'/>Contact</AnchorLink>
+        </div>
      </div>
 
        
