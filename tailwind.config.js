@@ -9,6 +9,7 @@
           'saira' : ['Saira Condensed', 'sans-serif']
          },
         fontSize: {
+          xxs: ['10px', '14px'],
           xxl: ['22px', '32px'],
         },
         colors: {
