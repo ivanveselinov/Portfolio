@@ -5,13 +5,13 @@ import { Fade, Zoom } from 'react-reveal'
 const WorkExperience = () => {
   
   const FirstContainer="lg:flex md: block h-22 border-b" 
-  const Container="h-22 shadow-md bg-blue-200 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 m-auto lg:w-full md:w-2/3 sm:w-full"
+  const Container="h-22 shadow-md bg-blue-200 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 lg:full md: w-2/3 sm: w-full sm: m-auto"
   const Main="w-full text-center text-2xl m-auto "
   const ContainerTwo="p-1 flex justijustify-between "
-  const Logo="bg-teamAssurance w-28 h-24 bg-no-repeat"
-  const Title="lg:text-3xl m-auto ml-10 border-b md:text-2xl sm: text-2xl font-bold"
-  const positionTitle="text-center mt-1 w-full h-10 text-xl font-bold"
-  const since="text-center mt-1 w-full h-10  text-xl"
+  const Logo="bg-teamAssurance bg-no-repeat lg:w-24 lg:h-24 md:w-24 md:h-24"
+  const Title="lg:text-3xl m-auto ml-10 border-b md: text-xl sm: text-2xl sm: text-center font-bold"
+  const positionTitle="text-center mt-1 w-full h-10 lg:text-xl font-bold md:text-l sm:text-l"
+  const since="text-center mt-1 w-full h-10  lg:text-xl font-bold md:text-l sm:text-l"
   const iconsTop = "mb-2"
   
     return (
@@ -25,14 +25,14 @@ const WorkExperience = () => {
             <p className="p-20 w-3/4 m-auto border-b text-3xl"><LaptopChromebookIcon sx ={{ fontSize: 40 }} className={iconsTop}/>&nbsp;Work Experience</p>
             </div>
                 
-                <div className={FirstContainer}>   {/* MAIN CLASS */}
+                <div className={FirstContainer} >   {/* MAIN CLASS  FIRST CONTAINER CLASS !!*/} 
                 
                    {/* TeamAssurance */}    
             <Zoom center duration={3000}>
               <div className={Container}> {/* Container */}
                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
                   <a href="https://teamassurance.com/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
-                    <p className={`${Logo} bg-teamAssurance`}></p>
+                   <p className={`${Logo} bg-teamAssurance`}></p>   
                   </a>
                   <p className={Title}>TeamAssurance</p>    
                 </div>
