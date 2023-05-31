@@ -16,7 +16,7 @@ const WorkExperience = () => {
   const workExperienceTitleMainContainer = "w-full m-auto h-40 flex"
   const workExperienceTitleSecondContainer = "m-auto w-1/4 lg:flex md:flex md:w-auto sm: block sm: w-3/4 "
   const workExperienceTitleIconContainer = "w-12 h-12 m-auto" 
-  const workExperienceTitleContainer = "w-full h-12 mt-2"
+  const workExperienceTitleContainer = "w-full h-12 mt-2 text-2xl"
     return (
       <Fade duration={3000}> 
         <div className=" bg-gray-100 pt-4 pb-32">

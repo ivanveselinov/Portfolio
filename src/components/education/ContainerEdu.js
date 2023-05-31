@@ -18,10 +18,15 @@ function ContainerEdu() {
   const Paragraph="lg:text-xl text-center sm: text-sm"
   const iconsTop = "mb-2"
   const iconsPub = "mb-1"
-  const educationExperienceTitleMainContainer = "w-full m-auto h-40 flex"
+  const educationExperienceTitleMainContainer = "order-b mb-6 mt-6 w-full m-auto h-40 flex"
   const educationExperienceTitleSecondContainer = "m-auto w-1/4 lg:flex md:flex md:w-auto sm: block sm: w-3/4 "
   const educationExperienceTitleIconContainer = "w-12 h-12 m-auto" 
   const educationExperienceTitleContainer = "w-full h-12 mt-2 text-3xl"
+
+  const publicationsExperienceTitleMainContainer = "border-b mt-8 w-full m-auto h-40 flex"
+  const publicationsExperienceTitleSecondContainer = "m-auto w-1/4 lg:flex md:flex md:w-auto sm: block sm: w-3/4 "
+  const publicationsExperienceTitleIconContainer = "w-12 h-12 m-auto" 
+  const publicationsExperienceTitleContainer = "w-full h-12 mt-2 text-3xl"
   
     return (
       <Fade duration={3000}> 
@@ -102,9 +107,16 @@ function ContainerEdu() {
              
                   {/* PUBLICATIONS !! */}
          
-            <div id="publication" className={`${Main} pt-4`}>  {/* MAIN CLASS */}
-            <p className=" p-20 w-3/4 m-auto border-b text-3xl"><ArticleIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Publications</p> {/* PUBLICATIONS  */}
+          <div id="publication" className={`${Main} pt-4`}>  {/* MAIN CLASS */}      
+            <div className={publicationsExperienceTitleMainContainer}> {/* publicationsExperienceTitleMainContainer */}
+              <div className={publicationsExperienceTitleSecondContainer}> {/* publicationsExperienceTitleSecondContainer */}
+                <div className={publicationsExperienceTitleIconContainer}> {/* publicationsExperienceTitleIconContainer */}
+                  <ArticleIcon sx ={{ fontSize: 40 }} className={iconsTop}/>
+                </div>
+                <div className={publicationsExperienceTitleContainer}>&nbsp;Publications</div> {/* publicationsExperienceTitleContainer */}
+              </div>
             </div>
+          </div>
           
      
             <div className={FirstContainer}>
