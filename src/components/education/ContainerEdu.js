@@ -18,6 +18,10 @@ function ContainerEdu() {
   const Paragraph="lg:text-xl text-center sm: text-sm"
   const iconsTop = "mb-2"
   const iconsPub = "mb-1"
+  const educationExperienceTitleMainContainer = "w-full m-auto h-40 flex"
+  const educationExperienceTitleSecondContainer = "m-auto w-1/4 lg:flex md:flex md:w-auto sm: block sm: w-3/4 "
+  const educationExperienceTitleIconContainer = "w-12 h-12 m-auto" 
+  const educationExperienceTitleContainer = "w-full h-12 mt-2 text-3xl"
   
     return (
       <Fade duration={3000}> 
@@ -27,7 +31,14 @@ function ContainerEdu() {
             
             <div className={Main}>  {/* MAIN CLASS */}
             {/* HistoryEduRoundedIcon */}
-            <p className="p-20 w-3/4 m-auto border-b text-3xl"><SchoolRoundedIcon sx ={{ fontSize: 40 }} className={iconsTop}/>&nbsp;Education</p>
+              <div className={educationExperienceTitleMainContainer}> {/* educationExperienceTitleMainContainer */}
+                <div className={educationExperienceTitleSecondContainer}> {/* educationExperienceTitleSecondContainer */}
+                  <div className={educationExperienceTitleIconContainer}> {/* educationExperienceTitleIconContainer */}
+                    <SchoolRoundedIcon sx ={{ fontSize: 40 }} className={iconsTop}/>
+                  </div>
+                  <div className={educationExperienceTitleContainer}>&nbsp;Education</div> {/* educationExperienceTitleContainer */}
+                </div>
+              </div>
             </div>
 
               {/* General Assembly */}
