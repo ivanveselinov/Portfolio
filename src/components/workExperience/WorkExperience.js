@@ -6,7 +6,7 @@ const WorkExperience = () => {
   
   const FirstContainer="lg:flex md: block h-22 border-b" 
   const Container="h-22 shadow-md bg-blue-200 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 lg:full md: w-2/3 sm: w-full sm: m-auto"
-  const Main="w-full text-center text-2xl m-auto "
+  const Main="w-full text-center text-2xl m-auto mt-8 "
   const ContainerTwo="p-1 flex justijustify-between lg:w-3/4 md: w-3/4 sm:w-3/4 m-auto"
   const Logo="bg-teamAssurance bg-no-repeat lg:w-24 lg:h-24 md:w-24 md:h-24 "
   const Title="lg:text-3xl m-auto ml-10 border-b md: text-xl sm: text-2xl sm: text-center font-bold"
