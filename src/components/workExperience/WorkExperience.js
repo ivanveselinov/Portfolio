@@ -13,7 +13,10 @@ const WorkExperience = () => {
   const positionTitle="text-center mt-1 w-full h-10 lg:text-xl font-bold md:text-l sm:text-l"
   const since="text-center mt-1 w-full h-10  lg:text-xl font-bold md:text-l sm:text-l"
   const iconsTop = "mb-2"
-  
+  const workExperienceTitleMainContainer = "w-full m-auto h-40 flex"
+  const workExperienceTitleSecondContainer = "m-auto w-1/4 lg:flex md:flex md:w-auto sm: block sm: w-3/4 "
+  const workExperienceTitleIconContainer = "w-12 h-12 m-auto" 
+  const workExperienceTitleContainer = "w-full h-12 mt-2"
     return (
       <Fade duration={3000}> 
         <div className=" bg-gray-100 pt-4 pb-32">
@@ -22,7 +25,15 @@ const WorkExperience = () => {
             
             <div className={Main}>  {/* MAIN CLASS */}
          
-            <p className="p-20 w-3/4 m-auto border-b text-3xl"><LaptopChromebookIcon sx ={{ fontSize: 40 }} className={iconsTop}/>&nbsp;Work Experience</p>
+            <div className={workExperienceTitleMainContainer}> {/* workExperienceTitleMainContainer */}
+              <div className={workExperienceTitleSecondContainer}> {/* workExperienceTitleSecondContainer */}
+                <div className={workExperienceTitleIconContainer}> {/* workExperienceTitleIconContainer */}
+                  <LaptopChromebookIcon sx ={{ fontSize: 40 }} className={iconsTop}/>
+                </div>
+                <div className={workExperienceTitleContainer}>&nbsp;Work Experience</div> {/* workExperienceTitleContainer */}
+              </div>
+            </div>
+            
             </div>
                 
                 <div className={FirstContainer} >   {/* MAIN CLASS  FIRST CONTAINER CLASS !!*/} 
