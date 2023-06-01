@@ -4,12 +4,12 @@ import { Fade, Zoom } from 'react-reveal'
 
 const WorkExperience = () => {
   
-  const FirstContainer="lg:flex md: block lg:w-full md: w-3/4 h-22 border-b" 
+  const FirstContainer="lg:flex md: block lg:w-full md: w-3/4 h-22 border-b m-auto" 
   const Container="h-22 shadow-md bg-blue-200 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 w-full sm: w-full sm: m-auto"
   const Main="w-full text-center text-2xl m-auto mt-8"
-  const ContainerTwo="p-1 flex justijustify-between lg:w-4/5 m-auto md: w-3/4 sm: w-full border-2 "
-  const Logo="bg-no-repeat lg:w-24 lg:h-24 md:w-24 md:h-24 m-auto border-2" //Implement Hidden command here for Logo on sm screen like sm:hidden !!!
-  const Title="lg:text-3xl m-auto border-b md: text-xl sm: text-2xl font-bold m-auto border-2" //Title and logo need touch up for large screen !!
+  const ContainerTwo="p-1 flex justijustify-between lg:w-4/5 m-auto md: w-3/4 sm: w-full"
+  const Logo="bg-no-repeat lg:w-24 lg:h-24 md:w-24 md:h-24 m-auto" //Implement Hidden command here for Logo on sm screen like sm:hidden !!!
+  const Title="lg:text-3xl m-auto border-b md: text-xl sm: text-2xl font-bold m-auto text-center" //Title and logo need touch up for large screen as future improvement !!!
   const positionTitle="text-center mt-1 w-full lg:h-10 lg:text-xl font-bold md:text-l sm:text-l sm: h-full"
   const since="text-center mt-1 w-full h-10  lg:text-xl font-bold md:text-l sm:text-l"
   const iconsTop = "mb-2"
@@ -46,7 +46,7 @@ const WorkExperience = () => {
                   <a href="https://teamassurance.com/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
                    <p className={`${Logo} bg-teamAssurance`}></p>   
                   </a>
-                  <p className={Title}>TeamAssurance</p>    
+                  <p className={` ${Title} lg:ml-12 md:ml-auto`}>TeamAssurance</p>    
                 </div>
                 <p className={positionTitle}>Position/Title: DevOps Developer</p>
                 <p className={since}>January 2021 - February 2023</p>
@@ -60,7 +60,7 @@ const WorkExperience = () => {
                         <a href="https://www.dektech.com.au/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
                           <p className={`${Logo} bg-dekTechnologies`}></p>
                         </a>
-                        <p className={Title}>Dek Technologies</p>
+                        <p className={`${Title} lg:ml-10 md:ml-auto`}>Dek Technologies</p>
                         <p className="bg-dekTechnologies"></p>
                         </div>
                         <p className={positionTitle}>Position/Title: DevOps Engineer</p>
