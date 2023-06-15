@@ -46,7 +46,10 @@ const WorkExperience = () => {
                       <a href="https://www.dektech.com.au/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
                         <p className={`${Logo} bg-dekTechnologies`}></p>
                       </a>
-                      <p className={`${Title} lg:ml-10 md:ml-auto`}>Dek Technologies</p>
+                      <div className={`${Title} lg:flex lg:ml-10 md:ml-auto md:flex sm:block `}>
+                        <p className="text-blue-900">Dek</p>
+                        <p className="text-gray-500">&nbsp;Technologies</p>
+                      </div>
                       <p className="bg-dekTechnologies"></p>
                       </div>
                       <p className={positionTitle}>Position/Title: DevOps Engineer</p>
@@ -60,7 +63,10 @@ const WorkExperience = () => {
                         <a href="https://teamassurance.com/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
                         <p className={`${Logo} bg-teamAssurance`}></p>   
                         </a>
-                        <p className={` ${Title} lg:ml-12 md:ml-auto`}>TeamAssurance</p>    
+                        <div className={` ${Title} lg:ml-12 md:ml-auto flex`}>
+                          <p className="text-yellow-500">Team</p>
+                        <p className="">&nbsp;Assurance</p>
+                      </div>   
                       </div>
                       <p className={positionTitle}>Position/Title: DevOps Developer</p>
                       <p className={since}>January 2021 - February 2023</p>
