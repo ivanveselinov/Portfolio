@@ -37,36 +37,35 @@ const WorkExperience = () => {
             
             </div>
                 
-                <div className={FirstContainer} >   {/* MAIN CLASS  FIRST CONTAINER CLASS !!*/} 
-                
-                   {/* TeamAssurance */}    
-            <Zoom center duration={3000}>
-              <div className={Container}> {/* Container */}
-                <div className={ContainerTwo}>  { /* ContainerTwo */ }
-                  <a href="https://teamassurance.com/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
-                   <p className={`${Logo} bg-teamAssurance`}></p>   
-                  </a>
-                  <p className={` ${Title} lg:ml-12 md:ml-auto`}>TeamAssurance</p>    
-                </div>
-                <p className={positionTitle}>Position/Title: DevOps Developer</p>
-                <p className={since}>January 2021 - February 2023</p>
-              </div>
-              </Zoom>
-
-                  {/* Dek Technologies */}
+              <div className={FirstContainer} >   {/* MAIN CLASS  FIRST CONTAINER CLASS !!*/} 
+        
+                {/* Dek Technologies */}
+                <Zoom center duration={3000}>
+                  <div className={Container}> {/* Container */}
+                      <div className={ContainerTwo}>  { /* ContainerTwo */ }
+                      <a href="https://www.dektech.com.au/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+                        <p className={`${Logo} bg-dekTechnologies`}></p>
+                      </a>
+                      <p className={`${Title} lg:ml-10 md:ml-auto`}>Dek Technologies</p>
+                      <p className="bg-dekTechnologies"></p>
+                      </div>
+                      <p className={positionTitle}>Position/Title: DevOps Engineer</p>
+                      <p className={since}>May 2023 - Present </p>
+                      </div>
+                </Zoom>  
+                        {/* TeamAssurance */}    
                   <Zoom center duration={3000}>
                     <div className={Container}> {/* Container */}
-                        <div className={ContainerTwo}>  { /* ContainerTwo */ }
-                        <a href="https://www.dektech.com.au/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
-                          <p className={`${Logo} bg-dekTechnologies`}></p>
+                      <div className={ContainerTwo}>  { /* ContainerTwo */ }
+                        <a href="https://teamassurance.com/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+                        <p className={`${Logo} bg-teamAssurance`}></p>   
                         </a>
-                        <p className={`${Title} lg:ml-10 md:ml-auto`}>Dek Technologies</p>
-                        <p className="bg-dekTechnologies"></p>
-                        </div>
-                        <p className={positionTitle}>Position/Title: DevOps Engineer</p>
-                        <p className={since}>May 2023 - Present </p>
-                        </div>
-                    </Zoom>
+                        <p className={` ${Title} lg:ml-12 md:ml-auto`}>TeamAssurance</p>    
+                      </div>
+                      <p className={positionTitle}>Position/Title: DevOps Developer</p>
+                      <p className={since}>January 2021 - February 2023</p>
+                    </div>
+                  </Zoom>    
                 </div>
             </div>
         </div>
