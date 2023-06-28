@@ -69,7 +69,7 @@ const WorkExperience = () => {
                       </div>   
                       </div>
                       <p className={positionTitle}>Position/Title: DevOps Developer</p>
-                      <p className={since}>January 2021 - February 2023</p>
+                      <p className={since}>January 2022 - February 2023</p>
                     </div>
                   </Zoom>    
                 </div>
