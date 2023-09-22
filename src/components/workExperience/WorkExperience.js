@@ -2,6 +2,11 @@ import React from 'react'
 import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 import { Fade, Zoom } from 'react-reveal'
 
+// I have installed dateTime plugin !!!!
+// let date = Date()
+
+// console.log(date)
+
 const WorkExperience = () => {
   
   const FirstContainer="lg:flex md: block lg:w-full md: w-3/4 h-22 border-b m-auto" 

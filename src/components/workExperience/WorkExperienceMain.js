@@ -3,7 +3,7 @@ import WorkExperience from './WorkExperience'
 
 const WorkExperienceMain = () => {
   return (
-    <div id="workExperience" className="w-[50%] border-2 min-h-10">
+    <div id="workExperience" className="w-full border-2 min-h-10">
       <WorkExperience />
     </div>
   )
