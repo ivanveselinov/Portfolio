@@ -5,7 +5,7 @@ function Main() {
 
     const TextHeader="lg: text-center text-2xl mb-2 "  
     const Text=" lg: show w-full text-lg  break-words h-250 p-10 border-2 bg-blue-200 m-auto mt-1 focus:outline-none  overflow-x-hidden overflow-scroll rounded-xl mb-2 hidden md:block ";
-    const Image="lg: w-400 border-2 m-auto mt-1 bg-project0 bg-cover h-250 bg-center rounded-xl mb-2";
+    const Image="lg: w-400 border-2 m-auto mt-1 bg-cover h-250 bg-center rounded-xl mb-2";
     const List="list-item ml-3 p-0.5 pb-5 ";
     const techStack='mb-4';
 
@@ -182,7 +182,7 @@ function Main() {
     <Zoom center duration={3000}>
       <div className=" flex ">
        <a href="https://ivanveselinov.github.io/project0/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
-          <div className={Image}></div>     {/* image */}
+          <div className={` ${Image} bg-project0`}></div>     {/* image */}
         </a>
           <div className={Text}> {/* TEXT DIV*/}
             <h1 className={TextHeader}>Tic Tac Toe</h1> {/* H1 */}
