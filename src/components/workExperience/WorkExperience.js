@@ -2,10 +2,6 @@ import React from 'react'
 import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 import { Fade, Zoom } from 'react-reveal'
 
-// I have installed dateTime plugin !!!!
-// let date = Date()
-
-// console.log(date)
 
 const WorkExperience = () => {
   
