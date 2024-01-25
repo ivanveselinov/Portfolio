@@ -3,8 +3,8 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 
 function AboutMe() {
-// test
-    const Paragraph = "lg:text-xxl sm: text-sm text-left";
+
+  const Paragraph = "lg:text-xxl sm: text-sm text-left";
 
     return (
     <Fade duration={3000}>
