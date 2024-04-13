@@ -1,7 +1,61 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 import { Fade, Zoom } from 'react-reveal'
 
+function teamAssuranceEndDate(){
+  const TaStartDate = new Date('2022-01-15');
+  const TaEndDate = new Date('2023-02-15')
+  
+  let milisecounds = TaEndDate - TaStartDate
+  
+  let diffInDays = Math.floor(milisecounds / (1000 * 60 * 60 * 24));
+
+  if (diffInDays >= 365) {
+    let year = diffInDays / 365
+    let months = (diffInDays % 365) / 30;
+    console.log('Year: ', year)
+
+    if (months.toFixed(0) < 2){
+      console.log(`${year.toFixed(0)} year and ${months.toFixed(0)} month`)
+    } else{
+      console.log(`${year.toFixed(0)} year and ${months.toFixed(0)} months`)
+    }
+
+
+
+  }  
+
+}
+
+
+function CurrentWorkPlace(){
+
+  const currentDate = new Date();
+  const startDate = new Date('2023-04-30')
+  
+  let milisecounds = currentDate - startDate
+  
+  let diffInDays = Math.floor(milisecounds / (1000 * 60 * 60 * 24));
+
+  let year = diffInDays / 365
+  let months = (diffInDays % 365) / 30;
+  console.log('Year: ', year)
+
+    if (months.toFixed(0) < 2){
+      console.log(`${year.toFixed(0)} year and ${months.toFixed(0)} month`)
+    } else{
+      console.log(`${year.toFixed(0)} year and ${months.toFixed(0)} months`)
+    }
+
+    if (diffInDays < 365){
+      let  totalMonths = (diffInDays / 30) 
+      console.log(`${totalMonths.toFixed(0)} Months`)
+    }
+}
+
+CurrentWorkPlace()
+
+// teamAssuranceEndDate()
 
 const WorkExperience = () => {
   
@@ -54,7 +108,7 @@ const WorkExperience = () => {
                       <p className="bg-dekTechnologies"></p>
                       </div>
                       <p className={positionTitle}>Position/Title: DevOps Engineer</p>
-                      <p className={since}>May 2023 - Present </p>
+                      <p className={since}>May 2023 - Present</p>
                       </div>
                 </Zoom>  
                         {/* TeamAssurance */}    
@@ -71,6 +125,7 @@ const WorkExperience = () => {
                       </div>
                       <p className={positionTitle}>Position/Title: DevOps Developer</p>
                       <p className={since}>January 2022 - February 2023</p>
+                      <p className={since}>Joined on <span id="year"></span> year and <span id="month"></span> months</p>
                     </div>
                   </Zoom>    
                 </div>
