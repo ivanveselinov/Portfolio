@@ -59,11 +59,11 @@ const WorkExperience = () => {
   }, [])
 
   const FirstContainer="lg:flex md: block lg:w-full md: w-3/4 h-22 border-b m-auto" 
-  const Container="h-22 shadow-md bg-blue-200 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 w-full sm: w-full sm: m-auto"
   const Main="w-full text-center text-2xl m-auto mt-8"
-  const ContainerTwo="p-1 flex justijustify-between lg:w-4/5 m-auto md: w-3/4 sm: w-full"
+  const Container="h-22 shadow-md bg-blue-200 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 w-full sm: w-full sm: m-auto"
+  const ContainerTwo="p-1 flex lg:w-2/3 m-auto md: w-2/3 sm: w-full"
   const Logo="bg-no-repeat lg:w-24 lg:h-24 md:w-24 md:h-24 m-auto" //Implement Hidden command here for Logo on sm screen like sm:hidden !!!
-  const Title="lg:text-3xl m-auto border-b md: text-xl sm: text-2xl font-bold m-auto text-center" //Title and logo need touch up for large screen as future improvement !!!
+  const Title="lg:text-3xl m-auto border-b md: text-xl sm: text-2xl font-bold  text-center" //Title and logo need touch up for large screen as future improvement !!!
   const positionTitle="text-center mt-1 w-full lg:h-10 lg:text-xl font-bold md:text-l sm:text-l sm: h-full"
   const since="text-center mt-1 w-full h-10  lg:text-xl font-bold md:text-l sm:text-l"
   const iconsTop = "mb-2"
@@ -77,7 +77,6 @@ const WorkExperience = () => {
         <div className=" bg-gray-100 pt-4 pb-32">
         <div className="w-3/4 m-auto">
 
-            
             <div className={Main}>  {/* MAIN CLASS */}
          
             <div className={workExperienceTitleMainContainer}> {/* workExperienceTitleMainContainer */}
@@ -135,7 +134,7 @@ const WorkExperience = () => {
                         <a href="https://teamassurance.com/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
                         <p className={`${Logo} bg-teamAssurance`}></p>   
                         </a>
-                        <div className={` ${Title} lg:ml-12 md:ml-auto flex`}>
+                        <div className={` ${Title} lg:ml-auto md:ml-auto flex`}>
                           <p className="text-yellow-500">Team</p>
                         <p className="">&nbsp;Assurance</p>
                       </div>   

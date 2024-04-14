@@ -17,6 +17,7 @@
         },
         backgroundImage: {
           'home-lg': "url('components/img/Home.jpg')",
+          'home2-lg': "url('components/img/Home2.jpg')",
           'about': "url('components/img/Ivan1.png')",
           'project0': "url('components/img/tictactoe.png')",
           'project1': "url('components/img/Agency.png')",
