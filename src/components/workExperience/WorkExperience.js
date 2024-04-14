@@ -4,30 +4,10 @@ import { Fade, Zoom } from 'react-reveal'
 
 const WorkExperience = () => {
 
-  const [taYear, setTaYear] = useState('');
-  const [taMonth, setTaMonth] = useState('');
-
   const [year, setYear] = useState('');
   const [month, setMonth] = useState('');
 
   useEffect(() => {
-
-    function teamAssuranceEndDate(){
-      const TaStartDate = new Date('2022-1-15');
-      const TaEndDate = new Date('2023-02-15')
-      
-      let milisecounds = TaEndDate - TaStartDate
-      
-      let diffInDays = Math.floor(milisecounds / (1000 * 60 * 60 * 24));
-    
-      if (diffInDays >= 365) {
-        let year = diffInDays / 365
-        let months = (diffInDays % 365) / 30;
-
-        setTaYear(year.toFixed(0));
-        setTaMonth(months.toFixed(0));
-      }  
-    }
 
     function CurrentWorkPlace(){
 
@@ -42,8 +22,6 @@ const WorkExperience = () => {
       let months = (diffInDays % 365) / 30;
     
         if (diffInDays < 365){
-          let totalMonths = (diffInDays / 30) 
-          console.log(`${totalMonths.toFixed(0)} Months`)
           setYear(0);
           setMonth(months.toFixed(0));
         } else{
@@ -54,7 +32,6 @@ const WorkExperience = () => {
     }
 
     CurrentWorkPlace()
-    teamAssuranceEndDate()
 
   }, [])
 
@@ -141,24 +118,7 @@ const WorkExperience = () => {
                       </div>
                       <p className={positionTitle}>Position/Title: DevOps Developer</p>
                       <p className={since}>January 2022 - February 2023</p>
-                      {taYear <= 0 ? (
-                        taMonth <= 1 ? (
-                          <p className={`${since}, text-red-500`}>{taMonth} month</p>
-                        ) : (
-                          <p className={`${since}, text-red-500`}>{taMonth} months</p>
-                        )
-                      ) : (
-                        taMonth <= 0 ? (
-                          <p className={`${since}, text-red-500`}>
-                            {taYear} {taYear <= 1 ? 'year' : 'years'}
-                          </p>
-                        ) : (
-                          <p className={`${since}, text-red-500`}>
-                            {taYear} {taYear <= 1 ? 'year' : 'years'} and {taMonth}{' '}
-                            {taMonth <= 1 ? 'month' : 'months'}
-                          </p>
-                        )
-                      )}
+                      <p className={`${since}, text-red-500`}>1 year and 1 month</p>
                     </div>
                   </Zoom>    
                 </div>
