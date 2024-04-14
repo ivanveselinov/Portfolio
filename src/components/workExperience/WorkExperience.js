@@ -13,7 +13,7 @@ const WorkExperience = () => {
   useEffect(() => {
 
     function teamAssuranceEndDate(){
-      const TaStartDate = new Date('2022-01-15');
+      const TaStartDate = new Date('2022-1-15');
       const TaEndDate = new Date('2023-02-15')
       
       let milisecounds = TaEndDate - TaStartDate
@@ -100,7 +100,7 @@ const WorkExperience = () => {
                       <a href="https://www.dektech.com.au/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
                         <p className={`${Logo} bg-dekTechnologies`}></p>
                       </a>
-                      <div className={`${Title} lg:flex lg:ml-10 md:ml-auto md:flex sm:block `}>
+                      <div className={`${Title} lg:flex lg:ml-auto md:ml-auto md:flex sm:block `}>
                         <p className="text-blue-900">Dek</p>
                         <p className="text-gray-500">&nbsp;Technologies</p>
                       </div>
@@ -108,19 +108,24 @@ const WorkExperience = () => {
                       </div>
                       <p className={positionTitle}>Position/Title: DevOps Engineer</p>
                       <p className={since}>May 2023 - Present</p>
-                      {year <= 0 ? (
+                      {year <= 0 ? ( // Following condition applies if year is less then 0
                         month <= 1 ? (
-                          <p className={since}>{month} month</p>
+                          <p className={`${since}, text-red-500`}>{month} month</p>
                         ) : (
-                          <p className={since}>{month} months</p>
+                          <p className={`${since}, text-green-700`}>{month} months</p>
                         )
                       ) : (
-                        <p className={since}>
-                          {year} {year <= 1 ? 'year' : 'years'} and {month}{' '}
-                          {month <= 1 ? 'month' : 'months'}
-                        </p>
+                        month <= 0 ? ( // if month is 0 for example 1 year 
+                          <p className={`${since}, text-red-500`}> 
+                            {year} {year <= 1 ? 'year' : 'years'}
+                          </p>
+                        ) : ( // Else if year is > 1 then years else year same for month
+                          <p className={`${since}, text-red-500`}> 
+                            {year} {year <= 1 ? 'year' : 'years'} and {month}{' '}
+                            {month <= 1 ? 'month' : 'months'}
+                          </p>
+                        )
                       )}
-                      
                       </div>
                 </Zoom>  
                         {/* TeamAssurance */}    
@@ -144,10 +149,16 @@ const WorkExperience = () => {
                           <p className={since}>{taMonth} months</p>
                         )
                       ) : (
-                        <p className={since}>
-                          {taYear} {taYear <= 1 ? 'year' : 'years'} and {taMonth}{' '}
-                          {taMonth <= 1 ? 'month' : 'months'}
-                        </p>
+                        taMonth <= 0 ? (
+                          <p className={since}>
+                            {taYear} {taYear <= 1 ? 'year' : 'years'}
+                          </p>
+                        ) : (
+                          <p className={`${since}, text-red-500`}>
+                            {taYear} {taYear <= 1 ? 'year' : 'years'} and {taMonth}{' '}
+                            {taMonth <= 1 ? 'month' : 'months'}
+                          </p>
+                        )
                       )}
                     </div>
                   </Zoom>    
