@@ -118,7 +118,19 @@ const WorkExperience = () => {
                       </div>
                       <p className={positionTitle}>Position/Title: DevOps Engineer</p>
                       <p className={since}>May 2023 - Present</p>
-                      <p className={since}>{year} years and {month} months</p>
+                      {year <= 0 ? (
+                        month < 1 ? (
+                          <p className={since}>{month} month</p>
+                        ) : (
+                          <p className={since}>{month} months</p>
+                        )
+                      ) : (
+                        <p className={since}>
+                          {year} {year === 0 ? 'year' : 'years'} and {month}{' '}
+                          {month === 1 ? 'month' : 'months'}
+                        </p>
+                      )}
+                      
                       </div>
                 </Zoom>  
                         {/* TeamAssurance */}    
@@ -135,7 +147,18 @@ const WorkExperience = () => {
                       </div>
                       <p className={positionTitle}>Position/Title: DevOps Developer</p>
                       <p className={since}>January 2022 - February 2023</p>
-                      <p className={since}>{taYear} year and {taMonth} month</p>
+                      {taYear <= 0 ? (
+                        taMonth <= 1 ? (
+                          <p className={since}>{taMonth} month</p>
+                        ) : (
+                          <p className={since}>{taMonth} months</p>
+                        )
+                      ) : (
+                        <p className={since}>
+                          {taYear} {taYear === 1 ? 'years' : 'year'} and {taMonth}{' '}
+                          {taMonth === 1 ? 'months' : 'month'}
+                        </p>
+                      )}
                     </div>
                   </Zoom>    
                 </div>
