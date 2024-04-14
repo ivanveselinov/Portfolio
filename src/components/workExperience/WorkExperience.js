@@ -23,14 +23,6 @@ const WorkExperience = () => {
       if (diffInDays >= 365) {
         let year = diffInDays / 365
         let months = (diffInDays % 365) / 30;
-        console.log('Year: ', year)
-        console.log('taMonths', months)
-    
-        // if (months.toFixed(0) < 2){
-        //   console.log(`${year.toFixed(0)} year and ${months.toFixed(0)} month`)
-        // } else{
-        //   console.log(`${year.toFixed(0)} year and ${months.toFixed(0)} months`)
-        // }
 
         setTaYear(year.toFixed(0));
         setTaMonth(months.toFixed(0));
@@ -48,7 +40,6 @@ const WorkExperience = () => {
     
       let year = diffInDays / 365
       let months = (diffInDays % 365) / 30;
-      console.log('Year: ', year)
     
         if (diffInDays < 365){
           let totalMonths = (diffInDays / 30) 
@@ -56,8 +47,7 @@ const WorkExperience = () => {
           setYear(0);
           setMonth(months.toFixed(0));
         } else{
-          let totalMonths = (diffInDays / 30) 
-          console.log(`${totalMonths.toFixed(0)} Months`)
+
           setYear(year.toFixed(0));
           setMonth(months.toFixed(0));
         }
@@ -119,15 +109,15 @@ const WorkExperience = () => {
                       <p className={positionTitle}>Position/Title: DevOps Engineer</p>
                       <p className={since}>May 2023 - Present</p>
                       {year <= 0 ? (
-                        month < 1 ? (
+                        month <= 1 ? (
                           <p className={since}>{month} month</p>
                         ) : (
                           <p className={since}>{month} months</p>
                         )
                       ) : (
                         <p className={since}>
-                          {year} {year === 0 ? 'year' : 'years'} and {month}{' '}
-                          {month === 1 ? 'month' : 'months'}
+                          {year} {year <= 1 ? 'year' : 'years'} and {month}{' '}
+                          {month <= 1 ? 'month' : 'months'}
                         </p>
                       )}
                       
@@ -155,8 +145,8 @@ const WorkExperience = () => {
                         )
                       ) : (
                         <p className={since}>
-                          {taYear} {taYear === 1 ? 'years' : 'year'} and {taMonth}{' '}
-                          {taMonth === 1 ? 'months' : 'month'}
+                          {taYear} {taYear <= 1 ? 'year' : 'years'} and {taMonth}{' '}
+                          {taMonth <= 1 ? 'month' : 'months'}
                         </p>
                       )}
                     </div>
