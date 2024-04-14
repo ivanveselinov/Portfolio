@@ -109,17 +109,17 @@ const WorkExperience = () => {
                       <p className={since}>May 2023 - Present</p>
                       {year <= 0 ? ( // Following condition applies if year is less then 0
                         month <= 1 ? (
-                          <p className={`${since}, text-red-500`}>{month} month</p>
+                          <p className={`${since}, text-green-700`}>{month} month</p>
                         ) : (
                           <p className={`${since}, text-green-700`}>{month} months</p>
                         )
                       ) : (
                         month <= 0 ? ( // if month is 0 for example 1 year 
-                          <p className={`${since}, text-red-500`}> 
+                          <p className={`${since}, text-green-700`}> 
                             {year} {year <= 1 ? 'year' : 'years'}
                           </p>
                         ) : ( // Else if year is > 1 then years else year same for month
-                          <p className={`${since}, text-red-500`}> 
+                          <p className={`${since}, text-green-700`}> 
                             {year} {year <= 1 ? 'year' : 'years'} and {month}{' '}
                             {month <= 1 ? 'month' : 'months'}
                           </p>
@@ -143,13 +143,13 @@ const WorkExperience = () => {
                       <p className={since}>January 2022 - February 2023</p>
                       {taYear <= 0 ? (
                         taMonth <= 1 ? (
-                          <p className={since}>{taMonth} month</p>
+                          <p className={`${since}, text-red-500`}>{taMonth} month</p>
                         ) : (
-                          <p className={since}>{taMonth} months</p>
+                          <p className={`${since}, text-red-500`}>{taMonth} months</p>
                         )
                       ) : (
                         taMonth <= 0 ? (
-                          <p className={since}>
+                          <p className={`${since}, text-red-500`}>
                             {taYear} {taYear <= 1 ? 'year' : 'years'}
                           </p>
                         ) : (
