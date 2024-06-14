@@ -62,7 +62,8 @@
           'memories': "url('components/img/memories.jpeg')",
           'project4': "url('components/img/iceConcrete.png')",
           'teamAssurance': "url('components/img/teamAssurance.jpeg')",
-          'dekTechnologies': "url('components/img/dekTechnologies.jpeg')"
+          'dekTechnologies': "url('components/img/dekTechnologies.jpeg')",
+          'endava': "url('components/img/endava.png')"
          },
        },
      },

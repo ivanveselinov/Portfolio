@@ -14,7 +14,7 @@ function Header() {
     const homeMenuBarSelection = "lg:text-xl hover:text-blue-300 hover:underline"
     const icons = "mb-2";
     return (
-    <div className=" z-10 w-screen fixed top-0 bg-gradient-to-r from-blue-50 via-blue-100 to-blue-200 h-24 ">
+    <div className=" z-10 w-screen fixed top-0 bg-gradient-to-r from-blue-50 via-blue-100 to-blue-200 h-24">
         <div className="w-full h-20 justify-between flex sm: text-xxs sm: space-x-1 xl:text-base xs:text-center text-center sm: p-6 md:p-10 lg:p-10">
             <AnchorLink href="#home" className={homeMenuBarSelection}><HomeIcon className={icons}/>Home</AnchorLink>
             <AnchorLink href="#about" className="lg:text-xl hover:text-blue-300 hover:underline  "><PersonIcon className={icons}/> About</AnchorLink>
