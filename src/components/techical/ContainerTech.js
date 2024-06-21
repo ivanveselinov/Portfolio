@@ -18,10 +18,10 @@ function ContainerTech() {
                 <div className="w-3/4 h-full m-auto mb-5 border-t">
                 <p className={`${Skills} lg:text-2xl `}><strong>Front-end:</strong> React.js, Express.js, Next.js, Vue.js, JavaScript, Jquery, Underscore, HTML, CSS, Bootstrap, Tailwind. </p>
                 <p className={Skills}><strong>Backend:</strong> Ruby on Rails, Node.js, Python, Express.js, AWS Services, API integration & Axios requests. </p>
-                <p className={Skills}><strong>Database:</strong> MongoDB, Firebase, PostgreSQL, Docker, SQLite.</p>
+                <p className={Skills}><strong>Database:</strong> MongoDB, Firebase, PostgreSQL, SQLite.</p>
                 <p className={`${Skills}`}><strong>Deployments:</strong> GitHub, Heroku, Firebase, Vercel, Netlify.</p>
                 <p className={`${Skills} `}><strong>DevOps:</strong> MySQL, Bash Scripting, AWS Beckup, AWS WAF Protection.</p>
-                <p className={`${Skills} `}> OWASP ZAP, Postman API, Regular Expressions.</p>
+                <p className={`${Skills} `}>Docker, OWASP ZAP, Postman API, Regular Expressions.</p>
                 <p className={`${Skills} border-b`}><strong>DevTools:</strong> Atlassians, Jama, OpsHub, SOX, Enterprise Architect.</p>
                 </div>
 
