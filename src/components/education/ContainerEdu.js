@@ -153,9 +153,9 @@ function ContainerEdu() {
                      </p>
                    </div>
                  
-                   <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }} className={iconsPub}/>International Conference on Applied Internet and Information Technologies, 2018 · Oct 5, 2018</p>
-                            <br></br>
-                   <div className="flex justify-between p-2 ">
+                   <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }} className={iconsPub}/>International Conference on Applied Internet and Information Technologies (AIIT2018) · Oct 5, 2018</p>
+                    <br></br> 
+                   <div className="flex justify-between mt-4 ">
                    <p className="text-center text-xl ">Page: 135</p>
                    <a href="http://www.tfzr.rs/aiit/archive/Proceedings_AIIT2018.pdf " target="_blank" className="text-center text-xl ">More..</a>
                    </div>
