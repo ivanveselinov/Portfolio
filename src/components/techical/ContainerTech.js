@@ -16,12 +16,13 @@ function ContainerTech() {
                 <div className="w-3/4 min-h-screen m-auto mt-10 p-2">
                 <div className="text-center text-2xl mt-5 mb-5 "><CloudDoneIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Technical Skills</div>
                 <div className="w-3/4 h-full m-auto mb-5 border-t">
-                <p className={`${Skills} lg:text-2xl `}><strong>Front-end:</strong> React.js, Express.js, Next.js, Vue.js, JavaScript, Jquery, Underscore, HTML, CSS, Bootstrap, Tailwind. </p>
-                <p className={Skills}><strong>Backend:</strong> Ruby on Rails, Node.js, Python, Express.js, AWS Services, API integration & Axios requests. </p>
-                <p className={Skills}><strong>Database:</strong> MongoDB, Firebase, PostgreSQL, SQLite.</p>
-                <p className={`${Skills}`}><strong>Deployments:</strong> GitHub, Heroku, Firebase, Vercel, Netlify.</p>
+                <p className={`${Skills} lg:text-2xl `}><strong>Front-end:</strong> React.js, Express.js, Next.js, Vue.js, JavaScript, Jquery, Underscore, HTML, CSS, Bootstrap, Tailwind.</p>
+                <p className={Skills}><strong>Backend:</strong> Ruby on Rails, Node.js, Python, Express.js, AWS Services,</p>
+                <p className={Skills}>API integration & Axios requests, Selenium Test Automation. </p>
+                <p className={Skills}><strong>Database:</strong> MongoDB, Firebase, PostgreSQL, SQLite, Power BI.</p>
+                <p className={`${Skills}`}><strong>Deployments:</strong> GitHub, Heroku, Firebase, Vercel, Netlify, Jenkins, OpenShift.</p>
                 <p className={`${Skills} `}><strong>DevOps:</strong> MySQL, Bash Scripting, AWS Beckup, AWS WAF Protection.</p>
-                <p className={`${Skills} `}>Docker, OWASP ZAP, Postman API, Regular Expressions.</p>
+                <p className={`${Skills} `}>Docker, Nexus, OWASP ZAP, Postman API, Regular Expressions.</p>
                 <p className={`${Skills} border-b`}><strong>DevTools:</strong> Atlassians, Jama, OpsHub, SOX, Enterprise Architect.</p>
                 </div>
 
@@ -71,7 +72,7 @@ function ContainerTech() {
                     </div>
                 </Zoom>
 
-                <Zoom duration={2900}>
+                <Zoom duration={3200}>
                 <div className={IconsContainer}>
                     <p className={`${Icons} bg-python`}></p>
                     <p className={`${Icons} bg-jama`}></p>
@@ -79,6 +80,17 @@ function ContainerTech() {
                     <p className={`${Icons} bg-sox`}></p>
                     <p className={`${Icons} bg-opshub`}></p>
                     <p className={`${Icons} bg-ea`}></p>
+                    </div>
+                </Zoom>
+
+                <Zoom duration={3500}>
+                <div className={IconsContainer}>
+                    <p className={`${Icons} bg-testautomation`}></p>
+                    <p className={`${Icons} bg-selenium`}></p>
+                    <p className={`${Icons} bg-openshift`}></p>
+                    <p className={`${Icons} bg-nexus`}></p>
+                    <p className={`${Icons} bg-jenkins`}></p>
+                    <p className={`${Icons} bg-powerBi`}></p>
                     </div>
                 </Zoom>
 
