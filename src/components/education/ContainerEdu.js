@@ -157,7 +157,7 @@ function ContainerEdu() {
                             <br></br>
                    <div className="flex justify-between p-2 ">
                    <p className="text-center text-xl ">Page: 135</p>
-                   <a href="https://aiitconference.org/2018/files/Proceedings_AIIT2018.pdf " target="_blank" className="text-center text-xl ">More..</a>
+                   <a href="http://www.tfzr.rs/aiit/archive/Proceedings_AIIT2018.pdf " target="_blank" className="text-center text-xl ">More..</a>
                    </div>
                   
                 </div>
