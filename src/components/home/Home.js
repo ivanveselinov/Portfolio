@@ -7,7 +7,7 @@ function Home() {
     const text="lg:ml-5 sm:ml-1 p-2 font-bold";
 
     return (
-        <div id="home" className="w-full mt-1 border-2 h-screen bg-home-lg bg-cover bg-center bg-repeat-y bg-fixed flex" >
+        <div id="home" className="w-full mt-1 border-2 h-screen bg-home-lg bg-cover bg-center bg-repeat-y flex" >
            <div className=" mt-50 m-auto w-1/2 justify-center h-60 ">
                <div className="lg:text-4xl md:text-3xl sm: text-2xl text-green-300 font-saira">
                     <Typing speed={100}>
