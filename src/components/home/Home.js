@@ -16,12 +16,11 @@ function Home() {
                         <p className={`${text} lg:ml-[60px] md:ml-[60px] sm:ml-[30px] xs: ml-[20px]`}>I am a Senior DevOps Engineer,</p>
                         <p className={`${text} lg:ml-[90px] md:ml-[90px] sm:ml-[50px] xs: ml-[30px]`}>Full-Stack Web Developer</p>
                         <p className={`${text} lg:ml-[120px] md:ml-[120px] sm:ml-[70px] xs: ml-[40px]`}>and IT Technician 💻</p>
-                        <p className={`${text} lg:ml-[160px] md:ml-[160px] sm:ml-[90px] xs: ml-[50px]`}>based in Melbourne 🇦🇺</p>
+                        <p className={`${text} lg:ml-[160px] md:ml-[160px] sm:ml-[90px] xs: ml-[50px]`}>based in Melbourne Australia 🌏</p>
                     <Typing.Speed ms={200} />
                         <p className='ml-5'></p>   
                     </Typing>
                 </div>
-
             </div>
         </div>
     )

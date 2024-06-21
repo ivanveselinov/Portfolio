@@ -39,7 +39,7 @@ const WorkExperience = () => {
   const Main="w-full text-center text-2xl m-auto mt-8"
   const Container="h-22 shadow-md bg-blue-200 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 w-full sm: w-full sm: m-auto"
   const ContainerTwo="p-1 flex lg:w-[85%] lg:m-0 md:w-2/3 md:m-auto sm: w-1/2 xs: w-full"
-  const Logo="bg-no-repeat lg:w-24 lg:h-24 md:w-24 md:h-24 m-auto" //Implement Hidden command here for Logo on sm screen like sm:hidden !!!
+  const Logo="bg-no-repeat lg:w-24 lg:h-24 md:w-24 md:h-24" //Implement Hidden command here for Logo on sm screen like sm:hidden !!!
   const LogoEndava="bg-no-repeat  bg-center lg:w-[350px] lg:h-[120px] bg-endava md:w-[500px] md:h-[120px]" //Implement Hidden command here for Logo on sm screen like sm:hidden !!!
   const Title="lg:text-[28px] m-auto  border-b md: text-xl sm: text-2xl font-bold text-center" //Title and logo need touch up for large screen as future improvement !!!
   const positionTitle="text-center mt-1 w-full lg:h-10 lg:text-xl font-bold md:text-l sm:text-l sm: h-full"
