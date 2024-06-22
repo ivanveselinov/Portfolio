@@ -7,14 +7,14 @@ function ContainerTech() {
 
     const Icons="w-16 h-16 rounded-2xl"
     const IconsContainer="w-full h-20 justify-between pt-14 flex"
-    const Skills="lg:text-xl p-5 text-center sm: text-xs"
+    const Skills="lg:text-xl p-5 text-center sm: text-xs dark:text-white"
 
     return (
       <Fade duration={3000}>
         <div>
-            <div className="w-full h-full mb-10">  
+            <div className="w-full h-[1300px]">  
                 <div className="w-3/4 min-h-screen m-auto mt-10 p-2">
-                <div className="text-center text-2xl mt-5 mb-5 "><CloudDoneIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Technical Skills</div>
+                <div className="text-center text-2xl mt-5 mb-5 dark:text-white"><CloudDoneIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Technical Skills</div>
                 <div className="w-3/4 h-full m-auto mb-5 border-t">
                 <p className={`${Skills} lg:text-2xl `}><strong>Front-end:</strong> React.js, Express.js, Next.js, Vue.js, JavaScript, Jquery, Underscore, HTML, CSS, Bootstrap, Tailwind.</p>
                 <p className={Skills}><strong>Backend:</strong> Ruby on Rails, Node.js, Python, Express.js, AWS Services,</p>

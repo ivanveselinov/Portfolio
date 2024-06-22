@@ -12,7 +12,7 @@ function ContactMain() {
   
     return (
   <Reveal>
-  <div className="w-full ">
+  <div className="w-full">
  
            {/* Contact form */}
   

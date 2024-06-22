@@ -53,34 +53,34 @@ function Mailer() {
     return (
     <Zoom duration={3000}>
     
-    <div className="mt-20 ">
-           <p className="text-center text-3xl mt-b mb-20 "><ContactMailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Contact</p>
+    <div className="mt-20">
+           <p className="text-center text-3xl mt-b mb-20"><ContactMailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Contact</p>
 
 
-        <div className="lg:w-1/3 m-auto border-b bg-blue-100 rounded-2xl shadow-xl"> 
+        <div className="lg:w-1/3 m-auto border-b bg-blue-100 rounded-2xl shadow-xl dark:bg-gray-400"> 
         
             <form className="ml-3 mr-3 pt-7 pb-7"ref={form} onSubmit={sendEmail} >
                 <div className="text-center">
-                    <p className="text-3xl"><EmailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp; Message me 
+                    <p className="text-3xl dark:text-white"><EmailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp; Message me 
                     </p>
-                    <p className="text-xl">&</p>
-                    <p className="text-xl"> Let's catch up for a coffee</p>
+                    <p className="text-xl dark:text-white">&</p>
+                    <p className="text-xl dark:text-white"> Let's catch up for a coffee</p>
                 </div>
              
             <div className={Fields}>      
-                 <TextField className="bg-white" fullWidth label="Name" name="name" id="fullWidth " onChange={_handlechange} value={name} required/> { /* User name */ }
+                 <TextField className="bg-white dark:bg-gray-200" fullWidth label="Name" name="name" id="fullWidth " onChange={_handlechange} value={name} required/> { /* User name */ }
            
             </div>
 
             <div className={Fields}>    
-                 <TextField className="bg-white" fullWidth label="Email" name="user_name" id="fullWidth" onChange={_emailChanger} value={user_name} required/> { /* Email adress */ }
+                 <TextField className="bg-white dark:bg-gray-200" fullWidth label="Email" name="user_name" id="fullWidth" onChange={_emailChanger} value={user_name} required/> { /* Email adress */ }
             </div>
 
             <div className={`${Fields} mb-5 mt-5 `}>  { /* Texr Field */ }
                  <TextareaAutosize         
                           onChange={_messageChanger}
                           value={message}                 
-                          className="p-3 w-full "
+                          className="p-3 w-full dark:bg-gray-400 dark:text-white"
                           name="message"
                           minRows={3}
                           aria-label="empty textarea"
@@ -90,12 +90,9 @@ function Mailer() {
                           />
             </div>
 
-            <div className="w-1/2 mb-3">
+            <div className="w-1/2 mb-3  dark:text-white">
                  <Button variant="outlined" name="removeForm" type="submit" value="Send">Send<SendIcon/></Button>  
              </div>
-                 
-
-
 
             </form>
         </div>
