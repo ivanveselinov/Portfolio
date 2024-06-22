@@ -15,26 +15,29 @@ import WorkExperienceMain from './workExperience/WorkExperienceMain';
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
-// Code is making Light/Dark mode automatically by windows settings
 function App() {
-  const [mode, setMode] = useState(
-    localStorage.getItem('theme') || 
-    (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
-  ); // 'light' or 'dark'
+  const [mode, setMode] = useState('light'); // Default to light mode
 
   useEffect(() => {
+    const storedTheme = localStorage.getItem('theme');
+    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (storedTheme) {
+      setMode(storedTheme);
+    } else {
+      // Set default to light if neither preference is set
+      setMode(prefersDarkMode ? 'dark' : 'light');
+    }
+
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    const handleChange = () => {
-      if (mode === 'light' && mediaQuery.matches) {
-        setMode('dark');
-      } else if (mode === 'dark' && !mediaQuery.matches) {
-        setMode('light');
-      }
-    };
+    const handleChange = (e) => setMode(e.matches ? 'dark' : 'light');
 
     mediaQuery.addEventListener('change', handleChange);
-    return () => mediaQuery.removeEventListener('change', handleChange);
-  }, [mode]);
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleChange);
+    };
+  }, []);
 
   const toggleColorMode = () => {
     const newMode = mode === 'light' ? 'dark' : 'light';
