@@ -48,39 +48,56 @@ function Mailer() {
     };
 
 
-    const Fields='lg:w-full mt-10 xm:w-min shadow-md ';
+    const Fields='lg:w-full mt-10 xm:w-min shadow-md';
 
     return (
     <Zoom duration={3000}>
     
     <div className="mt-20">
-           <p className="text-center text-3xl mt-b mb-20"><ContactMailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Contact</p>
+           <p className="text-center text-3xl mt-b mb-20 dark:text-white"><ContactMailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp;Contact</p>
 
 
         <div className="lg:w-1/3 m-auto border-b bg-blue-100 rounded-2xl shadow-xl dark:bg-gray-400"> 
         
-            <form className="ml-3 mr-3 pt-7 pb-7"ref={form} onSubmit={sendEmail} >
+            <form className="ml-3 mr-3 pt-7 pb-7 dark:text-white"ref={form} onSubmit={sendEmail} >
                 <div className="text-center">
-                    <p className="text-3xl dark:text-white"><EmailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp; Message me 
+                    <p className="text-3xl"><EmailIcon sx ={{ fontSize: 40 }} className='mb-3'/>&nbsp; Message me 
                     </p>
-                    <p className="text-xl dark:text-white">&</p>
-                    <p className="text-xl dark:text-white"> Let's catch up for a coffee</p>
+                    <p className="text-xl">&</p>
+                    <p className="text-xl"> Let's catch up for a coffee</p>
                 </div>
              
+            {/* User name */}
             <div className={Fields}>      
-                 <TextField className="bg-white dark:bg-gray-200" fullWidth label="Name" name="name" id="fullWidth " onChange={_handlechange} value={name} required/> { /* User name */ }
-           
+                 <TextField 
+                    className="bg-white dark:bg-gray-300" 
+                    fullWidth label="Name" 
+                    name="name" id="fullWidth" 
+                    onChange={_handlechange} 
+                    value={name} 
+                    required
+                 /> { /* User name */ }
             </div>
 
+            {/* Email */}
             <div className={Fields}>    
-                 <TextField className="bg-white dark:bg-gray-200" fullWidth label="Email" name="user_name" id="fullWidth" onChange={_emailChanger} value={user_name} required/> { /* Email adress */ }
+                 <TextField 
+                    className="bg-white dark:bg-gray-300" 
+                    fullWidth label="Email" 
+                    name="user_name" 
+                    id="fullWidth" 
+                    onChange={_emailChanger} 
+                    value={user_name} 
+                    required
+                /> { /* Email adress */ }
             </div>
 
-            <div className={`${Fields} mb-5 mt-5 `}>  { /* Texr Field */ }
-                 <TextareaAutosize         
+            {/* Message */}
+            <div className={`${Fields} mb-5 mt-5 `}>  { /* Text Field */ }
+                <TextareaAutosize         
                           onChange={_messageChanger}
                           value={message}                 
-                          className="p-3 w-full dark:bg-gray-400 dark:text-white"
+                          className="p-3 w-full dark:bg-gray-300 dark:text-black"
                           name="message"
                           minRows={3}
                           aria-label="empty textarea"
@@ -88,10 +105,17 @@ function Mailer() {
                           defaultValue=""
                          required
                           />
-            </div>
+                </div>
 
-            <div className="w-1/2 mb-3  dark:text-white">
-                 <Button variant="outlined" name="removeForm" type="submit" value="Send">Send<SendIcon/></Button>  
+            <div className="w-1/2 mb-3">
+                <Button 
+                    className="dark:text-white"
+                    variant="outlined" 
+                    name="removeForm" 
+                    type="submit" 
+                    value="Send">
+                    Send <SendIcon/>
+                </Button>  
              </div>
 
             </form>

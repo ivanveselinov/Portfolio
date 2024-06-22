@@ -5,7 +5,7 @@ import Mailer from './mailer'
 
 function ContactMe() {
     return (
-        <div id="contact" className="bg-gray-100 pt-4 dark:bg-gray-900">
+        <div id="contact" className="bg-gray-100 pt-4 dark:bg-gray-900 ">
             <Mailer/>
             <ContactMain />
             

@@ -133,7 +133,7 @@ const WorkExperience = () => {
                         </a>
                         <div className={` ${Title} lg:ml-auto md:ml-auto flex`}>
                           <p className="text-yellow-500">Team</p>
-                        <p className="">&nbsp;Assurance</p>
+                        <p className="dark:text-black">&nbsp;Assurance</p>
                       </div>   
                       </div>
                       <p className={positionTitle}>Position/Title:</p>

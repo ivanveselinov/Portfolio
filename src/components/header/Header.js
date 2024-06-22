@@ -29,8 +29,6 @@ function Header() {
             <AnchorLink href="#contact" className={homeMenuBarSelection}><ContactsIcon className='sm: mb-2 lg:mb-2.6'/>Contact</AnchorLink>
         </div>
      </div>
-
-       
     )
 }
 
