@@ -12,7 +12,7 @@ const WorkExperience = () => {
     function CurrentWorkPlace(){
 
       const currentDate = new Date();
-      const startDate = new Date('2024-05-30')
+      const startDate = new Date('2024-05-01')
       
       let milisecounds = currentDate - startDate
       
