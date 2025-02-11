@@ -80,7 +80,7 @@ const WorkExperience = () => {
                         <p className="text-gray-500">Endava</p>
                       </div>
                         <p className={positionTitle}>Position/Title:</p>
-                        <p className={`${positionTitle} text-green-700`}>Senior DevOps Engineer</p>
+                        <p className={`${positionTitle} text-green-700`}>Senior DevOps Engineer & Solutions Specialist</p>
                         <p className={since}>June 2024 - Present</p>
                       {year <= 0 ? ( // Following condition applies if year is less then 0
                         month <= 1 ? (
