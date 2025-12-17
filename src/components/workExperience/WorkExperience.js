@@ -17,19 +17,18 @@ const WorkExperience = () => {
       let milisecounds = currentDate - startDate
       
       let diffInDays = Math.floor(milisecounds / (1000 * 60 * 60 * 24));
-    
       let year = diffInDays / 365
       let months = (diffInDays % 365) / 30;
     
         if (diffInDays < 365){
           setYear(0);
-          setMonth(months.toFixed(0));
+          setMonth(Math.floor(months));
         } else{
-
-          setYear(year.toFixed(0));
+          setYear(Math.floor(year));
           setMonth(months.toFixed(0));
+
         }
-    }
+      }
 
     CurrentWorkPlace()
 
