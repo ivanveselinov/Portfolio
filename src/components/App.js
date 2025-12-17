@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { useState, useMemo, useEffect } from 'react';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { useState, useEffect, useMemo } from 'react';
+import { ThemeProvider, createTheme, CssBaseline, useMediaQuery } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
@@ -13,31 +13,21 @@ import Technical from './techical/Technical';
 import Education from '../components/education/Education';
 import WorkExperienceMain from './workExperience/WorkExperienceMain';
 
-const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
+export const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
 function App() {
-  const [mode, setMode] = useState('light'); // Default to light mode
+  const systemPrefersDark = useMediaQuery('(prefers-color-scheme: dark)');
+  const [mode, setMode] = useState('light');
 
+  // Load theme from localStorage or system preference
   useEffect(() => {
     const storedTheme = localStorage.getItem('theme');
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    if (storedTheme) {
+    if (storedTheme === 'light' || storedTheme === 'dark') {
       setMode(storedTheme);
     } else {
-      // Set default to light if neither preference is set
-      setMode(prefersDarkMode ? 'dark' : 'light');
+      setMode(systemPrefersDark ? 'dark' : 'light');
     }
-
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    const handleChange = (e) => setMode(e.matches ? 'dark' : 'light');
-
-    mediaQuery.addEventListener('change', handleChange);
-
-    return () => {
-      mediaQuery.removeEventListener('change', handleChange);
-    };
-  }, []);
+  }, [systemPrefersDark]);
 
   const toggleColorMode = () => {
     const newMode = mode === 'light' ? 'dark' : 'light';
@@ -45,11 +35,12 @@ function App() {
     localStorage.setItem('theme', newMode);
   };
 
+  // Memoize theme to avoid unnecessary re-renders
   const theme = useMemo(
     () =>
       createTheme({
         palette: {
-          mode,
+          mode: mode, // use state, not systemPrefersDark
         },
       }),
     [mode]
@@ -58,16 +49,16 @@ function App() {
   return (
     <ColorModeContext.Provider value={{ toggleColorMode }}>
       <ThemeProvider theme={theme}>
+        <CssBaseline /> {/* Apply MUI base styles */}
         <div className={`App overflow-hidden ${mode === 'dark' ? 'dark' : ''}`}>
+          {/* Dark mode toggle button */}
           <div className="w-22 h-[30px] z-50 fixed right-0">
-            <IconButton
-              sx={{ ml: 1 }}
-              onClick={toggleColorMode}
-              color="inherit"
-            >
+            <IconButton sx={{ ml: 1 }} onClick={toggleColorMode} color="inherit">
               {mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
             </IconButton>
           </div>
+
+          {/* Main content */}
           <Header />
           <Home darkMode={mode === 'dark'} />
           <Main />
