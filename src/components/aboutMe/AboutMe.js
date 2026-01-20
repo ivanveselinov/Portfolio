@@ -11,7 +11,6 @@ function AboutMe() {
     <div className="w-[75%] m-auto flex mt-20 mb-40"> 
       <div className=" flex">
         <div  className="lg:w-1/3 h-22 bg-about bg-cover bg-center xs:hidden">     </div>  {/* IMAGE! */}
-          {/* <div className="lg:text-lg p-10 break-words overflow-scroll h-22 max-w-278  bg-blue-200 shadow-lg m-auto focus:outline-none xs: w-full text-sm dark:bg-gray-400"> */}
           <div className="lg:text-lg p-10 break-words overflow-scroll h-22 max-w-278 bg-blue-200 shadow-lg m-auto focus:outline-none xs: w-full text-sm dark:bg-gray-400">
 
              <p className={Paragraph}>     {/* Put this one in more paragraphs */}
