@@ -113,7 +113,7 @@ function ContainerEdu() {
                 <div className={publicationsExperienceTitleIconContainer}> {/* publicationsExperienceTitleIconContainer */}
                   <ArticleIcon sx ={{ fontSize: 40 }} className={iconsTop}/>
                 </div>
-                <div className={publicationsExperienceTitleContainer}>&nbsp;Publications</div> {/* publicationsExperienceTitleContainer */}
+                <div className={publicationsExperienceTitleContainer}>&nbsp;Research & Publications</div> {/* publicationsExperienceTitleContainer */}
               </div>
             </div>
           </div>
@@ -134,8 +134,7 @@ function ContainerEdu() {
                
                    <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }}  className={iconsPub}/>International Conference on Advanced Technologies, Computer Engineering and Science (ICATCES 2019) Alanya, Turkey · Apr 26, 2019</p>
                    <div className="flex justify-between mt-4 ">
-                   <p className="text-center text-xl p-2 dark:text-white">Page: 212   </p>
-                   <a href="https://muh.karabuk.edu.tr/bilgisayar/icatces/proceeding_book_2019.pdf" target="_blank" className="text-center text-xl dark:text-white">More..</a>
+                   <a href="https://muh.karabuk.edu.tr/bilgisayar/icatces/proceeding_book_2019.pdf#page=222" target="_blank" className="text-center text-xl dark:text-white">See Publication</a>
                    </div>
                
                 
@@ -156,8 +155,7 @@ function ContainerEdu() {
                    <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }} className={iconsPub}/>International Conference on Applied Internet and Information Technologies (AIIT2018) · Oct 5, 2018</p>
                     <br></br> 
                    <div className="flex justify-between mt-4 ">
-                   <p className="text-center text-xl dark:text-white">Page: 135</p>
-                   <a href="http://www.tfzr.rs/aiit/archive/Proceedings_AIIT2018.pdf " target="_blank" className="text-center text-xl dark:text-white">More..</a>
+                   <a href="http://www.tfzr.rs/aiit/archive/Proceedings_AIIT2018.pdf#page=153" target="_blank" className="text-center text-xl dark:text-white">See Publication</a>
                    </div>
                   
                 </div>
