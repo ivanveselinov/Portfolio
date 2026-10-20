@@ -29,4 +29,4 @@ CMD ["npm", "start"]
 #   portfolio
 
 # Openshift deployment
-# oc new-app https://github.com/ivanveselinov/Portfolio \ --strategy=docker \ --name=portfolio
+# oc new-app https://github.com/ivanveselinov/Portfolio --strategy=docker --name=portfolio
