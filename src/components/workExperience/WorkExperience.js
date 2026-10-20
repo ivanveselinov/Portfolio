@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
-import { Fade, Zoom } from 'react-reveal'
+import { Zoom, Fade } from 'react-awesome-reveal';
 
 const WorkExperience = () => {
 
@@ -68,10 +68,10 @@ const WorkExperience = () => {
             </div>
             <div className={FirstContainer} >   {/* MAIN CLASS  FIRST CONTAINER CLASS !!*/} 
 
-            <Zoom center duration={3000}>
+            <Zoom className="col-span-full w-[99%]" duration={3000} triggerOnce>
                   <div className={Container}> {/* Container */}
                       < div className={`{ContainerTwo} flex justify-center items-center `}>  { /* ContainerTwo */ }
-                        <a href="https://www.endava.com//" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+                        <a href="https://www.endava.com//" target="_blank" rel="noopener noreferrer"> {/* LINK IMAGE TO GITHUB */ }
                         <p className={LogoEndava}></p>
                         </a>
                       </div>
@@ -105,10 +105,10 @@ const WorkExperience = () => {
               <div className={FirstContainer} >   {/* MAIN CLASS  FIRST CONTAINER CLASS !!*/} 
         
                 {/* Dek Technologies */}
-                <Zoom center duration={3000}>
-                  <div className={Container}> {/* Container */}
+                <Zoom className="flex items-center mr-1 ml-1 w-full" duration={3000}>
+                  <div className={`${Container} border-2`}> {/* Container */}
                       <div className={ContainerTwo}>  { /* ContainerTwo */ }
-                      <a href="https://www.dektech.com.au/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+                      <a href="https://www.dektech.com.au/" target="_blank" rel="noopener noreferrer"> {/* LINK IMAGE TO GITHUB */ }
                         <p className={`${Logo} bg-dekTechnologies`}></p>
                       </a>
                       <div className={`${Title} lg:flex lg:ml-auto md:ml-auto md:flex sm:block `}>
@@ -124,10 +124,10 @@ const WorkExperience = () => {
                       </div>
                 </Zoom>  
                         {/* TeamAssurance */}    
-                  <Zoom center duration={3000}>
+                  <Zoom className="flex items-center mr-1 ml-1 w-full" duration={3000}>
                     <div className={Container}> {/* Container */}
                       <div className={ContainerTwo}>  { /* ContainerTwo */ }
-                        <a href="https://teamassurance.com/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+                        <a href="https://teamassurance.com/" target="_blank" rel="noopener noreferrer"> {/* LINK IMAGE TO GITHUB */ }
                         <p className={`${Logo} bg-teamAssurance`}></p>   
                         </a>
                         <div className={` ${Title} lg:ml-auto md:ml-auto flex`}>

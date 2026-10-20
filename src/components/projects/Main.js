@@ -1,5 +1,5 @@
 import React from 'react'
-import Zoom from 'react-reveal/Zoom';
+import { Zoom } from 'react-awesome-reveal';
 
 function Main() {
 
@@ -83,7 +83,7 @@ function Main() {
     </Zoom>
 
 
-           {/* Project 3 */}
+      {/* Project 3 */}
       <Zoom center duration={3000}>
        <div className=" flex ">
        <a href="https://mls-ivanveselinov.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
@@ -102,7 +102,7 @@ function Main() {
              </p>
 
           
-               {/* List items */}
+              {/* List items */}
               <p className={techStack}>To make this project successful we used the following Technologies :</p>
               <p  className={` ${ List } mt-1`} >React</p>
               <p  className={ List } >Tailwind</p>
@@ -117,7 +117,7 @@ function Main() {
     </Zoom>
 
     
-        {/* Project 2 */}
+    {/* Project 2 */}
     <Zoom center duration={3000}>
       <div className=" flex">
         <a href="https://uniquee.vercel.app/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
@@ -134,7 +134,7 @@ function Main() {
               <p>This project outlines the full-stack knowledge learnt during these past 8 weeks of class. The project was inspired by Facebook because it is a real time application.
               Uniquee has been created to help people sell their uniquee and rare products with other users online by quick sign up through Facebook, Google or GitHub. </p>
 
-                           {/* List items */}
+            {/* List items */}
              <p className={techStack}>To make this project successful we used the following Technologies :</p>
              <p  className={` ${ List } mt-1`} >React</p>
              <p  className={ List } >Tailwind</p>
@@ -159,7 +159,7 @@ function Main() {
             <p>( Western Suburb Agency )</p>
             </h1>
 
-              {/* Paragraph */}
+          {/* Paragraph */}
           <p>
           This project is made for learning purposes. 
           <p>This Web Application has been created to help people find their next home easily by helping them to navigate and search for properties and Real estate agents by entering minimal data and information such as postcodes.</p>
@@ -178,7 +178,7 @@ function Main() {
       </div>
       </Zoom>
 
-      {/* Project 0 */}
+    {/* Project 0 */}
     <Zoom center duration={3000}>
       <div className=" flex ">
        <a href="https://ivanveselinov.github.io/project0/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }

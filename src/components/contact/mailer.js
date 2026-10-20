@@ -1,12 +1,11 @@
-import { TextareaAutosize } from "@material-ui/core"
+import TextareaAutosize from "@mui/material/TextareaAutosize";
 import { Button, TextField } from "@mui/material"
 import emailjs from 'emailjs-com';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import React, { useRef, useState } from 'react';
 import EmailIcon from '@mui/icons-material/Email';
 import SendIcon from '@mui/icons-material/Send';
-import Zoom from 'react-reveal/Zoom';
-
+import { Zoom } from 'react-awesome-reveal';
 
 function Mailer() {
         //get    set                          onChange

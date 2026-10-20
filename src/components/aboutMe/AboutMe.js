@@ -1,6 +1,5 @@
 import React from 'react'
-// import ReadMoreReact from 'read-more-react';
-import Fade from 'react-reveal/Fade';
+import {Fade } from 'react-awesome-reveal';
 
 function AboutMe() {
 

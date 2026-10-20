@@ -1,7 +1,7 @@
 import React from 'react'
 import Main from './Main'
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 function Project() {
     return (

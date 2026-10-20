@@ -3,14 +3,13 @@ import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
 import HistoryEduRoundedIcon from '@mui/icons-material/HistoryEduRounded';
 import FindInPageIcon from '@mui/icons-material/FindInPage';
 import ArticleIcon from '@mui/icons-material/Article';
-import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
+import { Zoom, Fade } from 'react-awesome-reveal';
 
 
 function ContainerEdu() {
 
   const FirstContainer="lg:flex md: block h-22 border-b" 
-  const Container=" h-22 shadow-md bg-red-300 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 m-auto sm:w-full dark:bg-gray-400"
+  const Container=" h-[90%] shadow-md bg-red-300 mt-5 mb-2 items-center mr-1 ml-1 rounded-xl p-4 m-auto sm:w-full dark:bg-gray-400"
   const Main="w-full text-center text-2xl m-auto "
   const ContainerTwo="p-1 flex justijustify-between"
   const Logo="lg: w-16 h-16"
@@ -46,7 +45,7 @@ function ContainerEdu() {
               </div>
             </div>
 
-              {/* General Assembly */}
+          {/* General Assembly */}
           <Zoom center duration={3000}>
             <div className={FirstContainer}>  
                 <div className={ `${Container} mr-2`}> {/* Container */}
@@ -70,8 +69,8 @@ function ContainerEdu() {
                 
                 <div className={FirstContainer}>   {/* MAIN CLASS */}
                 
-                   {/* FICT MASTER */}    
-            <Zoom center duration={3000}>
+            {/* FICT MASTER */}    
+            <Zoom className="flex items-center mr-1 ml-1 w-full" duration={3000}>
               <div className={Container}> {/* Container */}
                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
                    <p className={`${Logo} bg-fict`}> {/* LOGO */}
@@ -85,8 +84,8 @@ function ContainerEdu() {
                 </div>
               </Zoom>
 
-                  {/* BACHELOR */}
-              <Zoom center duration={3000}> 
+              {/* BACHELOR */}
+              <Zoom className="flex items-center mr-1 ml-1 w-full" duration={3000}> 
                 <div className={`${Container}`}> {/* Container */}
                 <div className={ContainerTwo}> { /* ContainerTwo */ }
                    <p className={`${Logo} bg-tfb`}> {/* LOGO */}
@@ -105,8 +104,7 @@ function ContainerEdu() {
                 </div>
            
              
-                  {/* PUBLICATIONS !! */}
-         
+          {/* PUBLICATIONS !! */}
           <div id="publication" className={`${Main} pt-4`}>  {/* MAIN CLASS */}      
             <div className={publicationsExperienceTitleMainContainer}> {/* publicationsExperienceTitleMainContainer */}
               <div className={publicationsExperienceTitleSecondContainer}> {/* publicationsExperienceTitleSecondContainer */}
@@ -121,8 +119,8 @@ function ContainerEdu() {
      
             <div className={FirstContainer}>
 
-               {/* Can we Fight Social Media!!  */}
-              <Zoom center duration={3000}> 
+              {/* Can we Fight Social Media!!  */}
+              <Zoom className="flex items-center mr-1 ml-1 w-full"  duration={3000}> 
                 <div className={Container}> {/* Container */}
                  <div className={ContainerTwo}>  { /* ContainerTwo */ }
                    <p className={`${Logo} bg-ICATCES`}> {/* LOGO */}
@@ -134,15 +132,15 @@ function ContainerEdu() {
                
                    <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }}  className={iconsPub}/>International Conference on Advanced Technologies, Computer Engineering and Science (ICATCES 2019) Alanya, Turkey · Apr 26, 2019</p>
                    <div className="flex justify-between mt-4 ">
-                   <a href="https://muh.karabuk.edu.tr/bilgisayar/icatces/proceeding_book_2019.pdf#page=222" target="_blank" className="text-center text-xl dark:text-white">See Publication</a>
+                   <a href="https://muh.karabuk.edu.tr/bilgisayar/icatces/proceeding_book_2019.pdf#page=222" target="_blank" rel="noopener noreferrer" className="text-center text-xl dark:text-white"> See Publication</a>
                    </div>
                
                 
                 </div>
               </Zoom>
 
-                  {/* MLS  */}
-              <Zoom center duration={3000}> 
+              {/* MLS  */}
+              <Zoom className="flex items-center mr-1 ml-1 w-full"  duration={3000}> 
                 <div className={Container}> {/* Container */}
                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
                    <p className={`${Logo} bg-AIIT mb-2`}> {/* LOGO */}
@@ -155,7 +153,7 @@ function ContainerEdu() {
                    <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }} className={iconsPub}/>International Conference on Applied Internet and Information Technologies (AIIT2018) · Oct 5, 2018</p>
                     <br></br> 
                    <div className="flex justify-between mt-4 ">
-                   <a href="http://www.tfzr.rs/aiit/archive/Proceedings_AIIT2018.pdf#page=153" target="_blank" className="text-center text-xl dark:text-white">See Publication</a>
+                   <a href="http://www.tfzr.rs/aiit/archive/Proceedings_AIIT2018.pdf#page=153" target="_blank" rel="noopener noreferrer" className="text-center text-xl dark:text-white">See Publication</a>
                    </div>
                   
                 </div>

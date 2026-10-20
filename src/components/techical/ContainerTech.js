@@ -1,7 +1,6 @@
 import React from 'react'
 import CloudDoneIcon from '@mui/icons-material/CloudDone';
-import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
+import { Zoom, Fade } from 'react-awesome-reveal';
 
 function ContainerTech() {
 

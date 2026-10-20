@@ -22,8 +22,11 @@ EXPOSE 3000
 # Start the app
 CMD ["npm", "start"]
 
-
+# Run locally
 # docker run -d \
 #   --name portfolio \
 #   -p 3000:3000 \
 #   portfolio
+
+# Openshift deployment
+# oc new-app https://github.com/ivanveselinov/Portfolio \ --strategy=docker \ --name=portfolio
