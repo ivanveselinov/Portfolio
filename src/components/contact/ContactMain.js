@@ -13,7 +13,7 @@ function ContactMain() {
     <div className="w-full">
   
       {/* Contact form */}
-      <div className="w-screen h-20 bg-blue-100 flex justify-between items-center mt-40">
+      <div className="w-screen h-20 bg-blue-100 flex justify-between items-center mt-40 text-black"> 
       <Zoom duration={2000}>
         <a href="https://www.linkedin.com/in/ivanveselinov" target="_blank" rel="noopener noreferrer" className="text-sm md:text-xl lg:text-2xl lg:w-1/4 bg-blue-100 items-center text-center p-5">
           LinkedIn <LinkedInIcon sx ={{ fontSize: 40 }} />
