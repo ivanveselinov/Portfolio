@@ -1,4 +1,4 @@
-FROM node:20.19.4
+FROM node:26.12.0
 
 # Set working directory
 WORKDIR /portfolio
