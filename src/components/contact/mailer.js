@@ -101,7 +101,6 @@ function Mailer() {
                           minRows={3}
                           aria-label="empty textarea"
                           placeholder="Hi there!"
-                          defaultValue=""
                          required
                           />
                 </div>
