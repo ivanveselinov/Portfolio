@@ -30,3 +30,7 @@ CMD ["npm", "start"]
 
 # Openshift deployment
 # oc new-app https://github.com/ivanveselinov/Portfolio --strategy=docker --name=portfolio
+
+# re-deploy
+# oc rollout restart deployment/portfolio
+# oc rollout status deployment/portfolio
