@@ -77,7 +77,7 @@ function ContainerEdu() {
                    </p> 
                    <p className={Title}>Faculty of Information and Communication Technologies 
                      </p>
-                   </div>
+                </div>
                    
                    <p className={Paragraph}><HistoryEduRoundedIcon sx ={{ fontSize: 40 }} className={iconsPub}/>Master in Computer Science</p>
                    <br></br>
@@ -88,12 +88,12 @@ function ContainerEdu() {
               <Zoom className="flex items-center mr-1 ml-1 w-full" duration={3000}> 
                 <div className={`${Container}`}> {/* Container */}
                 <div className={ContainerTwo}> { /* ContainerTwo */ }
-                   <p className={`${Logo} bg-tfb`}> {/* LOGO */}
-                   </p> 
+                  <p className={`${Logo} bg-tfb`}> {/* LOGO */}
+                  </p> 
                   
-                   <p className={Title}>Faculty of Technical Sciences 
+                  <div className={Title}>Faculty of Technical Sciences 
                      <p>St. Kliment Ohridski University - Bitola </p>
-                     </p>
+                  </div>
                 
                    </div>
                    <p className={Paragraph}><HistoryEduRoundedIcon sx ={{ fontSize: 40 }} className={iconsPub}/>Bachelor of Informatics, Information Technology </p>
@@ -123,12 +123,11 @@ function ContainerEdu() {
               <Zoom className="flex items-center mr-1 ml-1 w-full"  duration={3000}> 
                 <div className={Container}> {/* Container */}
                  <div className={ContainerTwo}>  { /* ContainerTwo */ }
-                   <p className={`${Logo} bg-ICATCES`}> {/* LOGO */}
-                   </p> 
-                   <p className={Title}>Can we Fight Social Media 
-                   <p>with Multimedia Learning Systems? </p>
-                     </p>
-                   </div>
+                  <p className={`${Logo} bg-ICATCES`}> {/* LOGO */} </p> 
+                  <div className={Title}>Can we Fight Social Media 
+                    <p>with Multimedia Learning Systems? </p>
+                  </div>
+                  </div>
                
                    <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }}  className={iconsPub}/>International Conference on Advanced Technologies, Computer Engineering and Science (ICATCES 2019) Alanya, Turkey · Apr 26, 2019</p>
                    <div className="flex justify-between mt-4 ">
@@ -145,9 +144,9 @@ function ContainerEdu() {
                 <div className={ContainerTwo}>  { /* ContainerTwo */ }
                    <p className={`${Logo} bg-AIIT mb-2`}> {/* LOGO */}
                    </p> 
-                   <p className={Title}>Architecture for Multimedia Learning System 
-                   <p>With Social Networking Features</p>
-                     </p>
+                    <div className={Title}>Architecture for Multimedia Learning System 
+                      <p>With Social Networking Features</p>
+                    </div>
                    </div>
                  
                    <p className={Paragraph}><FindInPageIcon sx ={{ fontSize: 40 }} className={iconsPub}/>International Conference on Applied Internet and Information Technologies (AIIT2018) · Oct 5, 2018</p>

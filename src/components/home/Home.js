@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Typing from 'react-typing-animation';
 
 function Home({ darkMode }) {

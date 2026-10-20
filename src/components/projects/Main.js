@@ -128,24 +128,24 @@ function Main() {
             <p>Inspired by Facebook</p>
             </h1>
 
-              {/* Paragraph */}
-              <p>This group project is made for learning purposes.</p>              
-            
-              <p>This project outlines the full-stack knowledge learnt during these past 8 weeks of class. The project was inspired by Facebook because it is a real time application.
-              Uniquee has been created to help people sell their uniquee and rare products with other users online by quick sign up through Facebook, Google or GitHub. </p>
+            {/* Paragraph */}
+            <p>This group project is made for learning purposes.</p>              
+          
+            <p>This project outlines the full-stack knowledge learnt during these past 8 weeks of class. The project was inspired by Facebook because it is a real time application.
+            Uniquee has been created to help people sell their uniquee and rare products with other users online by quick sign up through Facebook, Google or GitHub. </p>
 
-            {/* List items */}
-             <p className={techStack}>To make this project successful we used the following Technologies :</p>
-             <p  className={` ${ List } mt-1`} >React</p>
-             <p  className={ List } >Tailwind</p>
-             <p  className={ List } >Google Firebase Database</p>
-             <p  className={ List } >Google Firebase Authentication</p>
-             <p  className={ List } >NoSql</p>
-             <p  className={ List } >MUI MUI Components</p>
-             <p  className={ List } >Deployed via Vercel</p>
+          {/* List items */}
+            <p className={techStack}>To make this project successful we used the following Technologies :</p>
+            <p  className={` ${ List } mt-1`} >React</p>
+            <p  className={ List } >Tailwind</p>
+            <p  className={ List } >Google Firebase Database</p>
+            <p  className={ List } >Google Firebase Authentication</p>
+            <p  className={ List } >NoSql</p>
+            <p  className={ List } >MUI MUI Components</p>
+            <p  className={ List } >Deployed via Vercel</p>
             <p className="font-bold">Officially launched on 19.11.2021</p>
-             </div>
-            </div>
+          </div>
+        </div>
     </Zoom>
         
         {/* Project 1 */}
@@ -160,10 +160,9 @@ function Main() {
           </h1>
 
           {/* Paragraph */}
-          <p>
-          This project is made for learning purposes. 
-          <p>This Web Application has been created to help people find their next home easily by helping them to navigate and search for properties and Real estate agents by entering minimal data and information such as postcodes.</p>
-          </p>
+          <div> This project is made for learning purposes. 
+            <p>This Web Application has been created to help people find their next home easily by helping them to navigate and search for properties and Real estate agents by entering minimal data and information such as postcodes.</p>
+          </div>
                                 {/* List items */}
           <p className={techStack}>To make this project successful we used the following Technologies :</p>
           <p className={` ${ List } mt-1`}>HTML</p>
