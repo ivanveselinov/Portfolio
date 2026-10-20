@@ -12,7 +12,7 @@ function AboutMe() {
         <div  className="lg:w-1/3 h-22 bg-about bg-cover bg-center xs:hidden">     </div>  {/* IMAGE! */}
           <div className="lg:text-lg p-10 break-words overflow-scroll h-22 max-w-278 bg-blue-200 shadow-lg m-auto focus:outline-none xs: w-full text-sm dark:bg-gray-400">
 
-             <p className={Paragraph}>     {/* Put this one in more paragraphs */}
+             <div className={Paragraph}>     {/* Put this one in more paragraphs */}
                {/* Text about me !!*/}
            
               <p className="mb-4 mt-4 dark:text-white">
@@ -45,7 +45,7 @@ function AboutMe() {
                which added to all the theory I learnt overseas when studying.
            "
                />      */}
-              </p>   
+              </div>   
           </div>
       </div>
     </div>

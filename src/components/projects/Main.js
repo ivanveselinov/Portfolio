@@ -51,7 +51,7 @@ function Main() {
 {/*Project 4*/}
     <Zoom center duration={3000}>
       <div className=" flex ">
-       <a href="https://memories-auth.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+       <a href="https://memories-auth.vercel.app/" target="_blank" rel="noopener noreferrer"> {/* LINK IMAGE TO GITHUB */ }
           <div className={` ${Image} bg-memories`}></div>     {/* image */}
         </a>
           <div className={Text}> {/* TEXT DIV*/}
@@ -86,7 +86,7 @@ function Main() {
       {/* Project 3 */}
       <Zoom center duration={3000}>
        <div className=" flex ">
-       <a href="https://mls-ivanveselinov.vercel.app/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+       <a href="https://mls-ivanveselinov.vercel.app/" target="_blank" rel="noopener noreferrer"> {/* LINK IMAGE TO GITHUB */ }
        <div className={` ${Image} bg-mls`}></div>        {/* image */}
         </a>
           <div className={Text}> {/* TEXT DIV*/}
@@ -120,7 +120,7 @@ function Main() {
     {/* Project 2 */}
     <Zoom center duration={3000}>
       <div className=" flex">
-        <a href="https://uniquee.vercel.app/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
+        <a href="https://uniquee.vercel.app/" target="_blank" rel="noopener noreferrer">  { /* LINK IMAGE TO GITHUB */ }
         <div className={` ${Image} bg-project2`}></div>        {/* image */}
           </a>
           <div className={Text}> {/* TEXT DIV*/}
@@ -151,13 +151,13 @@ function Main() {
         {/* Project 1 */}
         <Zoom center duration={3000}>
         <div className=" flex">
-        <a href="https://rentalsivan.herokuapp.com/" target="_blank">  { /* LINK IMAGE TO GITHUB */ }
+        <a href="https://rentalsivan.herokuapp.com/" target="_blank" rel="noopener noreferrer">  { /* LINK IMAGE TO GITHUB */ }
           <div className={` ${Image} bg-project1`}></div>     {/* image */}
         </a>
       <div className={Text}>                           {/* TEXT DIV*/}
-            <h1 className={TextHeader}>Real Estate Solution 
-            <p>( Western Suburb Agency )</p>
-            </h1>
+          <h1 className={TextHeader}>Real Estate Solution 
+          <p>( Western Suburb Agency )</p>
+          </h1>
 
           {/* Paragraph */}
           <p>
@@ -181,7 +181,7 @@ function Main() {
     {/* Project 0 */}
     <Zoom center duration={3000}>
       <div className=" flex ">
-       <a href="https://ivanveselinov.github.io/project0/" target="_blank"> {/* LINK IMAGE TO GITHUB */ }
+       <a href="https://ivanveselinov.github.io/project0/" target="_blank" rel="noopener noreferrer"> {/* LINK IMAGE TO GITHUB */ }
           <div className={` ${Image} bg-project0`}></div>     {/* image */}
         </a>
           <div className={Text}> {/* TEXT DIV*/}
